@@ -1,0 +1,1056 @@
+MASTER PROMPT: COMPLETE SOFTWARE CODE AUDIT, PROJECT COST ANALYSIS, REPORTING DEVELOPMENT, HRMS DEVELOPMENT & COMMERCIAL PROPOSAL
+1. YOUR ROLE
+
+Act as a combination of:
+
+Senior Software Architect
+Technical Lead
+Software Code Auditor
+Business Analyst
+Project Manager
+Software Cost Estimation Consultant
+Indian HRMS Consultant
+Indian Payroll and Statutory Compliance Specialist
+Financial and Project Cost Analyst
+QA and Testing Consultant
+Commercial Proposal Specialist
+
+You have extensive experience in software development, enterprise applications, ERP, HRMS, payroll, project costing and the Indian IT services market.
+
+Your responsibility is to analyse my complete existing software source code, understand the business functionality, identify all existing and new development requirements, estimate man-hours, calculate costs and prepare a professional commercial proposal.
+
+IMPORTANT: Do not provide generic estimates. Analyse the actual source code and project requirements before calculating the final cost.
+
+2. PROJECT OBJECTIVE
+
+We have an existing running web application.
+
+We need to perform three major activities:
+
+PART A: EXISTING SOFTWARE ANALYSIS AND REPORTING DEVELOPMENT
+
+Analyse the complete existing application and work on the reporting part of the running project.
+
+Identify existing reports, missing reports, new reporting requirements, improvements, bugs and modifications.
+
+PART B: RUNNING PROJECT COST MANAGEMENT
+
+We need to calculate, record and analyse all costs associated with the existing running project, including historical development expenses, current operating expenses, employee costs, infrastructure costs, maintenance costs and future development expenses.
+
+PART C: NEW HRMS MODULE DEVELOPMENT
+
+We need to develop a comprehensive HRMS module based on Indian employment, payroll, attendance, leave, PF, ESI, mediclaim, HRA and other applicable statutory and company-policy requirements.
+
+All three parts must be analysed separately and then consolidated into one complete commercial project estimation.
+
+3. OUR ACTUAL TEAM STRUCTURE
+
+We have three people working on this project.
+
+RESOURCE 1: SENIOR SOFTWARE DEVELOPER / TECHNICAL LEAD
+
+One senior developer is responsible for:
+
+Overall technical ownership
+Complete software development
+Frontend development
+Backend development
+Database development
+API development and integration
+Technical architecture
+Technical planning
+Guiding development activities
+Code reviews
+Technical problem-solving
+Bug fixing
+Performance optimisation
+Deployment
+Technical support
+
+IMPORTANT:
+
+The senior developer performs both development and technical leadership. Estimate both types of activities separately for visibility, but do not double-count working hours.
+
+RESOURCE 2: QA ENGINEER / PROJECT COORDINATOR
+
+One QA Engineer is responsible for:
+
+Understanding requirements
+Preparing test cases
+Functional testing
+Integration testing
+Regression testing
+Bug reporting
+Bug verification
+Quality assurance
+Project progress tracking
+Task coordination
+Follow-ups with the developer
+Project documentation
+Delivery coordination
+Project management activities
+Client coordination where required
+
+Separate testing hours from project coordination hours.
+
+Do not count the same working time twice.
+
+RESOURCE 3: SALES PERSON
+
+One sales person is involved in:
+
+Client communication
+Requirement gathering
+Client meetings
+Commercial discussions
+Quotation preparation coordination
+Proposal follow-ups
+Sales coordination
+Client feedback collection
+Commercial negotiations
+Client relationship management
+
+Calculate sales and client coordination costs separately.
+
+Do not assign development or testing hours to the sales person.
+
+4. INITIAL INDIAN MARKET HOURLY RATES
+
+Use these initial configurable commercial billing rates:
+
+Resource	Hourly Rate
+Senior Developer / Technical Lead	₹1,800
+QA Testing	₹900
+Project Coordination	₹800
+Sales / Client Coordination	₹700
+
+These are proposed commercial billing rates, not employee salary rates.
+
+Allow all rates to be modified in the final Excel workbook.
+
+Calculate:
+
+Developer Cost = Developer Hours × ₹1,800
+
+QA Cost = QA Hours × ₹900
+
+Coordination Cost = Coordination Hours × ₹800
+
+Sales Cost = Sales Hours × ₹700
+
+Total Resource Cost = Sum of all resource costs.
+
+GST must be shown separately.
+
+Do not confuse employee salary cost with client billing rate.
+
+5. PHASE 1: COMPLETE SOURCE CODE ANALYSIS
+
+My existing software source code is available in your connected workspace.
+
+First inspect the entire accessible source code.
+
+Do not assume the programming language or technology.
+
+Identify:
+
+Programming languages
+Frontend frameworks
+Backend frameworks
+Database technology
+Application architecture
+APIs
+Third-party libraries
+Authentication system
+User roles and permissions
+External integrations
+Hosting and deployment architecture
+Existing infrastructure dependencies
+
+Identify the complete directory and file structure.
+
+Identify important controllers, models, services, components, routes, functions, database tables and API endpoints.
+
+Identify inaccessible folders and missing files.
+
+Do not modify, delete or overwrite any existing source code.
+
+Do not execute destructive operations.
+
+Do not expose confidential credentials or customer information.
+
+6. PHASE 2: COMPLETE MODULE-WISE FUNCTIONAL ANALYSIS
+
+Identify every existing module and submodule.
+
+For each module provide:
+
+Module name
+Submodule name
+Business purpose
+Description
+Existing functionality
+Frontend screens
+Backend functionality
+Database tables
+API endpoints
+User roles
+Dependencies
+Technical complexity
+Code quality
+Existing problems
+Missing functionality
+Recommended improvements
+
+Classify all functionality into:
+
+A. Existing and working (verified) B. Existing but requiring modification C. Incomplete functionality D. Completely new functionality E. Bug fixing F. Performance improvement G. Security improvement H. Maintenance requirement
+
+Do not treat existing working functionality as new development.
+
+Do not invent modules or features.
+
+Where source code cannot establish whether a feature works correctly, mark it as requiring functional verification.
+
+7. PHASE 3: EXISTING REPORTING MODULE DEVELOPMENT
+
+We specifically need to work on the reporting part of the existing running project.
+
+Perform a detailed reporting audit.
+
+Identify:
+
+Existing reports
+Missing reports
+New reports required
+Incorrect calculations
+Incomplete reports
+Performance issues
+Data accuracy issues
+Missing filters
+Export functionality
+Dashboard improvements
+
+Analyse the following reporting categories wherever relevant to the actual application:
+
+Dashboard reports
+Financial reports
+Sales reports
+Customer reports
+Project reports
+Employee reports
+Operational reports
+Attendance reports
+Expense reports
+Profit and loss reports
+Management reports
+User-wise reports
+Role-wise reports
+Monthly reports
+Yearly reports
+Custom reports
+Excel exports
+PDF exports
+Graphical dashboards
+
+For each report provide:
+
+Report name
+Business purpose
+Existing or new
+Data sources
+Database tables
+Calculation logic
+Filters
+Search functionality
+Export functionality
+Developer hours
+QA hours
+Coordination hours
+Complexity
+Estimated cost
+
+Avoid duplicating existing reports.
+
+Prepare a complete reporting module development estimate.
+
+8. PHASE 4: RUNNING PROJECT COST MANAGEMENT
+
+We need to record and analyse all costs associated with the existing running project.
+
+This is a separate requirement from development estimation.
+
+A. HISTORICAL PROJECT COSTS
+
+Prepare a structure to record all historical expenses.
+
+Include:
+
+Development costs already incurred
+Developer working hours
+QA working hours
+Project coordination costs
+Sales person costs
+Previous vendor payments
+Hosting expenses
+Server expenses
+Domain expenses
+SSL expenses
+Cloud services
+API subscriptions
+Software licences
+Maintenance expenses
+Bug fixing costs
+Other operational expenses
+
+Do not invent historical amounts.
+
+If historical data is unavailable, create an input field and mark it as pending.
+
+B. CURRENT RUNNING COSTS
+
+Calculate all recurring expenses:
+
+Monthly employee costs
+Monthly development expenses
+Monthly testing expenses
+Project coordination expenses
+Sales expenses
+Hosting and server expenses
+Cloud infrastructure
+Database services
+Software subscriptions
+API usage
+Maintenance
+Technical support
+Other operating expenses
+
+Calculate monthly, quarterly and annual running costs.
+
+C. FUTURE PROJECT COSTS
+
+Calculate:
+
+Remaining development costs
+New reporting development costs
+HRMS development costs
+Testing costs
+Integration costs
+Deployment costs
+Infrastructure expansion
+Maintenance costs
+Future support costs
+D. PROJECT FINANCIAL REPORTS
+
+Prepare:
+
+Total historical project investment
+Total development investment
+Total running expenses
+Current monthly operating cost
+Annual operating cost
+Resource-wise cost
+Module-wise cost
+Maintenance cost
+Future development budget
+Total cost to date
+Remaining project cost
+Cost versus revenue
+Project profitability
+Estimated total project value
+
+Clearly distinguish actual expenses, estimated expenses and proposed future costs.
+
+9. PHASE 5: NEW HRMS MODULE DEVELOPMENT
+
+We need to develop a comprehensive Human Resource Management System suitable for Indian companies.
+
+This must not be treated as only a basic employee management module.
+
+Analyse and estimate every submodule separately.
+
+A. EMPLOYEE MANAGEMENT
+Employee registration
+Employee profile
+Employee ID
+Department
+Designation
+Reporting manager
+Joining date
+Employment type
+Employee category
+Branch and location
+PAN details
+UAN
+Bank details
+Emergency contact
+Nominee details
+Employee documents
+Employment history
+Probation management
+Confirmation
+Resignation
+Employee exit
+Full and final settlement
+
+Protect sensitive personal data through appropriate access controls and privacy safeguards.
+
+B. ORGANISATION MANAGEMENT
+Company setup
+Multiple companies
+Multiple branches
+Departments
+Designations
+Reporting hierarchy
+Organisation chart
+Work locations
+Employee categories
+Company policies
+C. ATTENDANCE MANAGEMENT
+Biometric integration
+Web attendance
+Mobile attendance
+Shift management
+Weekly offs
+Late arrival
+Early departure
+Overtime
+Holiday calendar
+Attendance correction
+Attendance regularisation
+Monthly attendance summary
+Loss of Pay calculation
+Attendance approval
+D. LEAVE MANAGEMENT
+
+Support configurable leave policies.
+
+Include:
+
+Casual Leave
+Sick Leave
+Earned Leave
+Privilege Leave
+Annual Leave
+Maternity Leave
+Paternity Leave where offered by policy
+Compensatory Off
+Leave Without Pay
+Leave encashment
+Leave carry forward
+Leave accrual
+Leave approval workflow
+Leave balance
+Leave calendar
+
+Leave entitlements must be configurable according to applicable Indian central and state laws, establishment category and company policy.
+
+E. SALARY STRUCTURE AND PAYROLL MANAGEMENT
+
+Create a configurable salary structure.
+
+Earnings
+Basic Salary
+HRA
+Conveyance Allowance
+Special Allowance
+Other Allowances
+Incentives
+Bonus
+Overtime
+Reimbursements
+Other salary components
+Employee deductions
+Employee PF
+Employee ESI
+Professional Tax
+TDS
+Loan deductions
+Advance salary recovery
+Leave Without Pay
+Other authorised deductions
+Employer contributions and benefits
+Employer PF
+Employer ESI
+Gratuity provision
+Group Mediclaim premium
+Employee insurance
+Other employee benefits
+Payroll calculations
+Gross salary
+Total deductions
+Net salary
+Employer contribution
+Monthly CTC
+Annual CTC
+Total employer cost
+Salary arrears
+Payroll adjustments
+Full and final settlement
+
+Maintain historical salary structures and effective dates.
+
+Do not recalculate old payroll records using newly introduced salary structures or statutory rates.
+
+F. PROVIDENT FUND (PF)
+
+Include:
+
+PF eligibility
+Applicable wage definition
+Wage ceiling
+Employee contribution
+Employer contribution
+EPS allocation
+EDLI where applicable
+Monthly calculations
+Contribution statements
+ECR-related output
+Compliance reports
+G. EMPLOYEE STATE INSURANCE (ESI)
+
+Include:
+
+ESI eligibility
+Applicable wage ceiling
+Employee contribution
+Employer contribution
+Medical benefits information
+Monthly calculations
+Contribution reports
+ESI-related output
+H. MEDICLAIM AND EMPLOYEE INSURANCE
+
+Create a separate employee insurance management module.
+
+Include:
+
+Group mediclaim
+Employee insurance
+Family coverage
+Spouse coverage
+Children coverage
+Parent coverage where offered
+Insurance company
+Policy number
+Premium amount
+Employer contribution
+Employee contribution
+Policy renewal
+Claim tracking
+Dependent details
+Insurance reports
+
+IMPORTANT:
+
+Keep statutory ESI benefits and private group mediclaim separate.
+
+Distinguish between mandatory statutory obligations and optional company-provided benefits.
+
+I. GRATUITY MANAGEMENT
+
+Include:
+
+Eligibility
+Service period
+Applicable wage calculation
+Gratuity provision
+Resignation
+Retirement
+Death-related settlement where applicable
+Gratuity reports
+J. STATUTORY BONUS
+
+Include:
+
+Eligibility
+Applicable calculations
+Minimum and maximum statutory requirements
+Annual bonus
+Bonus reports
+K. INCOME TAX AND TDS
+
+Include:
+
+Tax regime selection
+Salary tax computation
+Investment declarations
+Applicable exemptions
+Deductions
+Monthly TDS
+Annual tax statements
+Form 16 support
+L. PROFESSIONAL TAX
+
+Include:
+
+State-wise applicability
+Salary slabs
+Monthly or periodic deductions
+State-wise reporting
+M. LABOUR WELFARE FUND
+
+Include:
+
+Applicable states
+Employee contribution
+Employer contribution
+Payment frequency
+Compliance reporting
+N. OTHER EMPLOYMENT COMPLIANCE
+
+Analyse applicable requirements for:
+
+Maternity benefits
+Employee compensation
+Minimum wages
+Working hours
+Overtime
+Wage slips
+Appointment letters
+Statutory registers
+Applicable labour returns
+Full and final settlement
+
+IMPORTANT LEGAL REQUIREMENTS:
+
+As of November 2026, consider India's applicable labour-code framework and current central and state rules.
+
+Do not hardcode statutory rates or legal thresholds.
+
+For every statutory rule maintain:
+
+Applicable law
+Central or state jurisdiction
+Establishment eligibility
+Employee eligibility
+Applicable wage definition
+Rate or calculation formula
+Effective date
+Source of government notification
+Last verified date
+
+Use current official government sources wherever possible.
+
+Flag rules that require confirmation from a qualified Indian labour-law or payroll professional.
+
+Do not assume that every company or employee is subject to every statutory provision.
+
+HRA is a configurable salary component and should not automatically be treated as a universal statutory entitlement.
+
+O. EMPLOYEE SELF-SERVICE PORTAL
+Employee login
+Profile update requests
+Payslip download
+Attendance viewing
+Leave application
+Leave balance
+Tax declarations
+Investment proofs
+Loan application
+Reimbursement requests
+Holiday calendar
+Company announcements
+Document downloads
+P. HR AND MANAGEMENT PORTAL
+Employee dashboard
+HR dashboard
+Payroll dashboard
+Attendance dashboard
+Leave dashboard
+Department reports
+Salary reports
+Headcount reports
+Attrition reports
+Employee cost reports
+Compliance dashboard
+Approval workflows
+Q. HRMS SECURITY
+Role-based access
+HR permissions
+Payroll permissions
+Employee data privacy
+Salary confidentiality
+Audit trails
+Approval history
+Data encryption
+Secure document storage
+Backup and recovery
+Sensitive data access logs
+10. PHASE 6: HRMS FUNCTIONAL REQUIREMENTS AND COMPLEXITY
+
+For every HRMS module, provide:
+
+Module name
+Submodule
+Functionality description
+Business rules
+Database requirements
+API requirements
+Frontend screens
+Backend development
+External integrations
+Security requirements
+Developer hours
+QA hours
+Coordination hours
+Sales hours
+Complexity
+Dependencies
+Estimated cost
+
+Identify all modules that require external integration, such as biometric devices, banking, insurance, government filing systems or other APIs.
+
+Separate direct development from third-party licensing and integration costs.
+
+11. PHASE 7: COMPLETE MAN-HOUR ESTIMATION
+
+Prepare realistic estimates for every module and submodule.
+
+Use the actual team:
+
+One Senior Developer / Technical Lead
+One QA Engineer / Project Coordinator
+One Sales Person
+
+Separate these activities:
+
+Developer
+Requirement understanding
+Technical planning
+Architecture
+Frontend development
+Backend development
+Database development
+API development
+Integration
+Code review
+Bug fixing
+Deployment
+QA Engineer
+Requirement review
+Test case preparation
+Functional testing
+Integration testing
+Regression testing
+Bug reporting
+Bug verification
+UAT support
+QA documentation
+Project Coordination
+Project planning
+Task tracking
+Follow-ups
+Progress reporting
+Client coordination
+Documentation
+Delivery coordination
+Sales
+Client meetings
+Requirement discussions
+Proposal coordination
+Commercial negotiations
+Sales follow-ups
+Client relationship management
+
+Do not double-count time when one person performs multiple responsibilities.
+
+For every task provide:
+
+| Module | Submodule | Developer Hours | QA Hours | Coordination Hours | Sales Hours | Complexity | Confidence |
+
+Provide:
+
+Minimum estimate
+Realistic estimate
+Maximum estimate
+
+Explain the assumptions behind uncertain estimates.
+
+12. PHASE 8: MODULE-WISE COST CALCULATION
+
+Use the initial commercial billing rates:
+
+Developer: ₹1,800/hour
+QA: ₹900/hour
+Project Coordination: ₹800/hour
+Sales: ₹700/hour
+
+Calculate:
+
+Developer Cost = Developer Hours × Developer Rate
+
+QA Cost = QA Hours × QA Rate
+
+Coordination Cost = Coordination Hours × Coordination Rate
+
+Sales Cost = Sales Hours × Sales Rate
+
+Module Cost = Sum of all resource costs.
+
+Prepare the following table:
+
+| Module | Developer Hours | Developer Cost | QA Hours | QA Cost | Coordination Cost | Sales Cost | Total Cost |
+
+Provide separate totals for:
+
+Existing reporting development
+Running project management
+New HRMS development
+HRMS statutory compliance
+Testing and deployment
+Ongoing maintenance
+
+Avoid double-counting shared infrastructure, integration and project management work.
+
+13. PHASE 9: COMPLETE PROJECT TIMELINE
+
+Calculate the implementation schedule using the actual three-person team.
+
+Account for:
+
+One developer doing all technical development and leadership
+One QA engineer handling testing and coordination
+One sales person handling client-facing commercial work
+Development and testing dependencies
+Testing overlap
+Bug fixing
+Client feedback
+Approval delays
+Integration
+Deployment
+
+Prepare a phased timeline:
+
+Phase 1: Existing application audit
+
+Phase 2: Existing reporting development
+
+Phase 3: Running project cost management
+
+Phase 4: HRMS employee management
+
+Phase 5: Attendance and leave management
+
+Phase 6: Salary structure and payroll
+
+Phase 7: PF, ESI and statutory compliance
+
+Phase 8: Mediclaim and benefits
+
+Phase 9: Employee and HR portals
+
+Phase 10: Testing, integration and deployment
+
+Show:
+
+Start and end estimates
+Working days
+Developer allocation
+QA allocation
+Dependencies
+Critical path
+Potential bottlenecks
+
+Do not simply divide total hours by the number of team members.
+
+14. PHASE 10: THREE COMMERCIAL PRICING OPTIONS
+
+Prepare three pricing options.
+
+OPTION A: BASIC
+
+Include:
+
+Essential reporting requirements
+Critical bug fixes
+Essential HRMS functionality
+Basic payroll
+Required statutory calculations
+Essential testing
+OPTION B: RECOMMENDED
+
+Include:
+
+Complete reporting improvements
+Running project cost management
+Comprehensive HRMS
+Attendance and leave
+Payroll
+PF and ESI
+Gratuity
+Applicable statutory compliance
+Mediclaim management
+Employee self-service
+HR management portal
+Complete testing
+OPTION C: PREMIUM
+
+Include all recommended functionality plus:
+
+Advanced dashboards
+Advanced analytics
+Performance optimisation
+Enhanced audit trails
+Additional integrations
+Extended documentation
+Advanced quality assurance
+Appropriate contingency
+
+Clearly explain the scope differences and costs.
+
+Do not simply increase prices without explaining additional functionality.
+
+15. PHASE 11: PROJECT PROFITABILITY AND RUNNING COST
+
+Calculate:
+
+Total estimated development cost
+Total historical investment
+Total running cost
+Monthly operating cost
+Annual operating cost
+Future development budget
+Total project cost
+Proposed client quotation
+Expected project revenue
+Expected gross margin
+Estimated profitability
+
+Keep historical costs, future costs and client-billable development costs separate.
+
+Provide a clear commercial view of the actual project investment versus the amount proposed to the client.
+
+16. PHASE 12: CLIENT-READY COMMERCIAL PROPOSAL
+
+Generate a professional proposal containing:
+
+Executive summary
+Project background
+Existing software assessment
+Current functionality
+Reporting development scope
+Running project cost management scope
+HRMS development scope
+Module-wise functionality
+Technical requirements
+Statutory compliance scope
+Developer man-hours
+QA man-hours
+Coordination man-hours
+Sales effort
+Module-wise prices
+Total commercial quotation
+Project timeline
+Payment milestones
+Assumptions
+Exclusions
+Third-party costs
+GST
+Warranty
+Support and maintenance
+Change request policy
+Final commercial terms
+
+Provide payment milestone recommendations linked to deliverables.
+
+Clearly state that statutory and third-party filing fees, licences and subscriptions are separate wherever applicable.
+
+17. PHASE 13: REQUIRED EXCEL WORKBOOK
+
+If file generation is supported, create a professional Excel workbook with formulas and editable assumptions.
+
+Create these sheets:
+
+Executive Summary
+Existing Application Modules
+Technical Audit
+Reporting Module Estimation
+Running Project Historical Costs
+Monthly Operating Expenses
+HRMS Module Inventory
+HRMS Functional Requirements
+HRMS Payroll Components
+PF and ESI Calculations
+Statutory Compliance
+Developer Man-Hours
+QA Man-Hours
+Coordination and Sales Hours
+Module-Wise Cost Estimation
+Project Timeline
+Commercial Pricing Options
+Project Profitability
+Assumptions and Risks
+
+All calculations must use formulas.
+
+Hourly rates must be editable.
+
+Changing an hourly rate should automatically update module prices and project totals.
+
+Use separate columns for actual, estimated and proposed amounts.
+
+18. PHASE 14: REQUIRED PDF DOCUMENTS
+
+Generate these documents if supported:
+
+Complete Software Technical Audit Report
+Existing Reporting Development Proposal
+Running Project Cost Analysis
+HRMS Functional Requirement Document
+HRMS Technical Scope
+HRMS Indian Statutory Compliance Checklist
+Detailed Man-Hour Estimation
+Complete Commercial Proposal
+
+The final commercial proposal should be professional, well-formatted and suitable for direct submission to an Indian client.
+
+19. IMPORTANT RULES FOR ACCURACY
+
+Follow these rules strictly:
+
+Analyse the actual code before estimating.
+Do not invent modules.
+Do not assume every screen is a separate module.
+Do not estimate working functionality as new development.
+Do not ignore hidden backend functionality.
+Do not ignore database and API complexity.
+Do not count the same working hours twice.
+Keep historical and future costs separate.
+Keep operating expenses separate from development costs.
+Keep statutory obligations separate from optional company benefits.
+Do not hardcode statutory rates.
+Verify Indian statutory requirements using official government sources.
+Show the source and effective date of legal rules.
+Do not assume a statutory provision applies to every employee or establishment.
+Clearly identify missing information.
+Provide confidence levels for estimates.
+Do not provide false precision.
+Clearly separate assumptions, exclusions and risks.
+Do not modify the existing source code.
+Do not expose confidential credentials or personal employee information.
+20. EXECUTION PLAN
+
+Work in the following order.
+
+PHASE 1: Discover the complete source code and technology stack.
+
+PHASE 2: Identify every existing module and submodule.
+
+PHASE 3: Analyse existing reporting functionality.
+
+PHASE 4: Analyse running project expenses and cost management requirements.
+
+PHASE 5: Prepare the complete HRMS functional requirements.
+
+PHASE 6: Analyse Indian payroll and statutory compliance.
+
+PHASE 7: Prepare module-wise developer, QA, coordination and sales estimates.
+
+PHASE 8: Calculate module-wise commercial pricing.
+
+PHASE 9: Calculate implementation timelines.
+
+PHASE 10: Prepare three commercial pricing options.
+
+PHASE 11: Calculate project running costs and

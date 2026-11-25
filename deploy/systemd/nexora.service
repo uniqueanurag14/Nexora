@@ -1,0 +1,40 @@
+# ==============================================================================
+# NEXORA ERP — systemd Service Unit (VPS / Single-Server Linux)
+#
+# Install:
+#   sudo cp deploy/systemd/nexora.service /etc/systemd/system/nexora.service
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now nexora
+# ==============================================================================
+
+[Unit]
+Description=Nexora Enterprise ERP Backend (Node.js + Express)
+After=network.target postgresql.service
+Wants=postgresql.service
+
+[Service]
+Type=simple
+User=nexora
+Group=nexora
+WorkingDirectory=/var/www/nexora
+Environment=NODE_ENV=production
+Environment=APP_ENV=production
+EnvironmentFile=/var/www/nexora/.env
+ExecStart=/usr/bin/npm run start
+Restart=on-failure
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=15
+
+# Process hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+UMask=0027
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=nexora-erp
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,763 @@
+# NEXORA — INVENTORY MANAGEMENT MODULE
+## AI Development Implementation Prompt
+
+### 1. Objective
+
+Review the existing Nexora application and implement a functional, database-driven Inventory Management module.
+
+The module must support:
+
+- Inventory dashboard.
+- Item/product management.
+- Category and unit-of-measure management.
+- Warehouse and stock-location management.
+- Stock receipts and issues.
+- Stock adjustments and transfers.
+- Stock balance tracking.
+- Low-stock alerts.
+- Stock movement history.
+- Inventory reports.
+- Excel import and export.
+- Role-based menu visibility and API authorization.
+
+Integrate with the existing Supplier Management, Authentication, Users, Roles and Permissions functionality wherever applicable.
+
+**Implement only relevant functional changes. Do not rebuild the application, redesign unrelated screens, or introduce unrelated modules.**
+
+First inspect the existing repository, database schema, migration history, APIs, frontend layout, authentication, permissions, and supplier functionality. Reuse existing implementations wherever possible.
+
+---
+
+### 2. Mandatory Project Structure
+
+**DO NOT CHANGE THE ROOT FOLDER STRUCTURE.**
+
+```text
+ROOT/
+├── frontend/
+├── Backend/
+├── database/
+└── public/
+    └── image/
+```
+
+Rules:
+
+1. Do not rename, move, remove, or duplicate these directories.
+2. Preserve the existing application framework, design system, and working functionality.
+3. Use PostgreSQL as the only application database.
+4. Keep configuration in the existing `.env` file.
+5. Update database migrations and existing code only where necessary.
+6. Do not create seed data, demo data, dummy items, sample categories, fake stock balances, mock transactions, or hardcoded inventory records.
+7. Do not create a duplicate Supplier, User, Role, Permission, or database connection system.
+8. Preserve existing records and the already-created Super Admin account.
+9. Keep all existing database maintenance commands and their safety rules.
+10. Do not execute destructive database operations automatically.
+
+### 3. Inventory Menu
+
+Implement the following menu structure using the existing Nexora navigation and role-based menu system.
+
+```text
+Inventory Management
+├── Inventory Dashboard
+├── Items / Products
+├── Categories
+├── Units of Measure
+├── Warehouses / Stock Locations
+├── Stock Operations
+│   ├── Receive Stock
+│   ├── Issue Stock
+│   ├── Stock Adjustments
+│   └── Stock Transfers
+├── Stock Movements
+├── Low Stock Alerts
+├── Inventory Reports
+└── Import / Export
+```
+
+Reuse existing menu definitions if they already exist. Do not register links to unimplemented routes or create fake menu items.
+
+The menu should appear according to each authenticated user's effective permissions. Super Admin retains full access to all existing application features.
+
+---
+
+### 4. Inventory Dashboard
+
+Create a practical dashboard using actual PostgreSQL data.
+
+Display summary cards for:
+
+- Total active inventory items.
+- Total quantity on hand.
+- Low-stock items.
+- Out-of-stock items.
+- Recent stock receipts.
+- Recent stock issues.
+- Recent adjustments and transfers.
+
+Below the summary cards, provide:
+
+- Low-stock items table.
+- Recent stock movements.
+- Search and filter controls.
+- Shortcuts to Add Item, Receive Stock, Issue Stock, and View Reports.
+
+Calculate dashboard information from real database records. Do not hardcode dashboard values or generate sample data when the database is empty.
+
+Display meaningful empty states when no inventory records or transactions exist.
+
+Where item quantities use different units, do not combine them into a misleading total. Clearly identify the units or provide separate summaries.
+
+Only calculate inventory valuation when cost data is available and the valuation method is defined.
+
+---
+
+### 5. Item / Product Management
+
+Implement full CRUD functionality, subject to database integrity and permissions.
+
+Support:
+
+- List items.
+- View item details.
+- Create items.
+- Edit items.
+- Disable items.
+- Delete eligible items.
+- Search, filter, sort, and paginate.
+- View stock balances.
+- View stock movement history.
+- Import and export supported item data.
+
+#### Item master fields
+
+Use the fields required by the existing business model, including:
+
+| Field | Requirement |
+|---|---|
+| Item ID | Database-generated identifier |
+| Item Code / SKU | Unique identifier |
+| Item Name | Required |
+| Description | Optional |
+| Category | Existing or authorized category |
+| Unit of Measure | Required where applicable |
+| Barcode | Optional |
+| Minimum Stock Level | Threshold for low-stock alerts |
+| Reorder Quantity | Optional suggested replenishment quantity |
+| Cost Price | Optional, where valuation is required |
+| Selling Price | Optional, where relevant |
+| Status | Active or Disabled |
+| Created By / Updated By | Audit information |
+| Created At / Updated At | Audit timestamps |
+
+Do not make fields mandatory without a business requirement.
+
+Generate item codes only if the existing application has a suitable numbering convention or an explicitly configured mechanism. Otherwise, validate user-entered item codes for uniqueness.
+
+Use safe database constraints to prevent duplicate item codes.
+
+Do not permit an item to be physically deleted if it has stock transactions or other dependent records that must be retained. Use disabling or the established soft-delete mechanism where appropriate.
+
+If the application manages serialized assets, batches, or expiry dates, inspect the existing schema and implement those capabilities only when required. Do not introduce unnecessary tracking complexity.
+
+---
+
+### 6. Categories and Units of Measure
+
+Implement category and unit management if these capabilities do not already exist.
+
+#### Categories
+
+Support:
+
+- Create category.
+- View category.
+- Edit category.
+- Enable or disable category.
+- Delete a category only when safe and permitted.
+- Search and filter categories.
+
+Prevent duplicate category identifiers according to the existing naming conventions.
+
+Do not delete categories that are referenced by existing inventory records unless a safe reassignment or approved deletion process is implemented.
+
+#### Units of Measure
+
+Support relevant units, such as pieces, boxes, packs, kilograms, litres, or metres.
+
+Requirements:
+
+- Store units as actual database records.
+- Validate unit names and codes.
+- Prevent unsafe changes to units already used in transactions.
+- Do not assume that different units can be summed directly.
+- Do not insert sample units during migrations.
+
+Authorized administrators must be able to configure the applicable categories and units.
+
+---
+
+### 7. Warehouse and Stock Locations
+
+Implement warehouse or stock-location management if the application requires more than one inventory location.
+
+Support:
+
+- Location code and name.
+- Address or description, where applicable.
+- Active or Disabled status.
+- Create, view, edit, and disable operations.
+- Location-based stock reports.
+
+Track quantities by item and location. Do not maintain only one organization-wide balance when multiple stock locations are enabled.
+
+Prevent deletion of locations with unresolved stock or historical records.
+
+If the existing application is designed for one stock location, preserve that implementation and extend it only as required. Do not introduce a complex multi-warehouse system unnecessarily.
+
+---
+
+### 8. Stock Receipt
+
+Implement a controlled receipt process to increase stock.
+
+The receipt form should support:
+
+- Reference number.
+- Receipt date.
+- Supplier, where applicable.
+- Destination stock location.
+- Item.
+- Quantity received.
+- Unit of measure.
+- Unit cost, where supported.
+- Notes or remarks.
+- Receiving user.
+
+Link supplier information to the existing Supplier Management module. Do not duplicate supplier records or supplier contact details.
+
+#### Receipt workflow
+
+1. Authorized user opens Receive Stock.
+2. Selects a valid item and destination location.
+3. Enters the actual received quantity and relevant reference details.
+4. The backend validates the request.
+5. The user reviews and confirms the receipt.
+6. PostgreSQL records the receipt and updates the corresponding stock balance atomically.
+7. The application displays the actual transaction result.
+
+If a Purchasing or Goods Receipt module already exists, integrate with its confirmed receipt workflow. Do not increase stock simply because a purchase order was created.
+
+If no separate purchasing or goods-receipt workflow exists, implement a basic authorized stock receipt rather than building an unrelated purchasing module.
+
+Prevent accidental duplicate submissions from posting the same receipt more than once.
+
+---
+
+### 9. Stock Issue
+
+Implement a controlled process to decrease available stock.
+
+Capture:
+
+- Reference number.
+- Issue date.
+- Source location.
+- Item.
+- Quantity issued.
+- Purpose or reason.
+- Recipient or department, if required.
+- Notes.
+- Issuing user.
+
+#### Issue workflow
+
+1. Authorized user selects the item and source location.
+2. The application displays the available quantity.
+3. The user enters the issue quantity and reason.
+4. The backend validates the requested quantity and available stock.
+5. The user confirms the transaction.
+6. PostgreSQL records the issue and decreases the stock balance atomically.
+7. The application displays the transaction result.
+
+Prevent stock from becoming negative unless a separately defined and explicitly authorized business policy permits it.
+
+The availability check must be enforced on the backend and within the appropriate database transaction. Do not rely only on a quantity displayed by the frontend.
+
+---
+
+### 10. Stock Adjustments
+
+Provide controlled stock adjustments for corrections, shortages, excess stock, damage, loss, or verified physical stock counts.
+
+Capture:
+
+- Item.
+- Stock location.
+- Current system quantity.
+- Actual counted quantity or adjustment quantity.
+- Difference.
+- Adjustment reason.
+- Reference or remarks.
+- Requested by.
+- Authorized by, if approval is required.
+
+Require a meaningful reason for every adjustment.
+
+The backend must calculate or validate the adjustment difference and update the stock balance atomically.
+
+Apply the existing authorization system to adjustment operations. If an approval workflow already exists, integrate with it. Do not invent an elaborate approval system if it is outside the existing application's scope.
+
+Never permit an unauthorized user to modify a stock balance directly through an unrestricted API.
+
+---
+
+### 11. Stock Transfers
+
+Where multiple locations are supported, implement transfers between locations.
+
+Capture:
+
+- Transfer reference.
+- Source location.
+- Destination location.
+- Item.
+- Quantity.
+- Date.
+- Remarks.
+- Initiated by.
+
+Validate that the source and destination are different valid locations.
+
+A completed transfer must:
+
+- Decrease the source location balance.
+- Increase the destination location balance.
+- Preserve the organization's overall inventory quantity.
+- Create traceable transaction records.
+- Be committed atomically.
+
+Do not allow partially applied transfers. If any required update fails, roll back the transaction.
+
+If the application later requires dispatched-versus-received transfer states, implement them only when required by the actual business workflow.
+
+---
+
+### 12. Stock Balance and Ledger
+
+Maintain reliable stock balances for each item and location.
+
+Use the existing database design if it already supports the required functionality.
+
+The logical stock balance is:
+
+```text
+Current Stock =
+Opening Stock
++ Receipts
++ Returns In
+- Issues
+- Returns Out
++ Positive Adjustments
+- Negative Adjustments
+```
+
+Transfers must reduce one location's balance and increase another's without changing the organization's total quantity.
+
+Each posted movement must be traceable to:
+
+- Transaction ID.
+- Transaction type.
+- Item.
+- Quantity.
+- Source and destination location, as applicable.
+- Reference number.
+- Transaction date.
+- Acting user.
+- Related receipt, issue, adjustment, or transfer.
+- Created timestamp.
+
+Posted stock transactions must not be silently edited or deleted.
+
+Correct errors through a controlled reversal or compensating transaction that preserves the audit history.
+
+Use atomic PostgreSQL transactions and appropriate locking or equivalent concurrency protection to prevent double posting, lost updates, and overselling of available stock.
+
+Prevent duplicate transaction posting using suitable idempotency or transaction-reference controls where applicable.
+
+---
+
+### 13. Low Stock Alerts
+
+Implement database-driven low-stock warnings.
+
+Compare the available quantity against the item's configured minimum stock level.
+
+Show:
+
+- Item Code.
+- Item Name.
+- Stock Location.
+- Current Quantity.
+- Minimum Stock Level.
+- Reorder Quantity, where configured.
+- Alert Status.
+
+Support low-stock and out-of-stock filters.
+
+Update alert results when receipts, issues, transfers, or adjustments change stock.
+
+Use existing notification functionality if available. Do not add an unrelated notification system just for this module.
+
+Do not create fake alerts or sample inventory data.
+
+Treat the reorder quantity as a replenishment recommendation. Do not automatically create purchase orders unless that functionality already exists and is authorized.
+
+---
+
+### 14. Stock Movements and Inventory Reports
+
+Provide a Stock Movements screen and practical reports based on actual PostgreSQL data.
+
+Support filters by:
+
+- Date range.
+- Item.
+- Item category.
+- Stock location.
+- Transaction type.
+- Reference number.
+- Acting user, where permitted.
+
+Include reports for:
+
+- Current stock by item.
+- Stock by location.
+- Low-stock and out-of-stock items.
+- Receipt history.
+- Issue history.
+- Stock adjustments.
+- Transfers.
+- Complete stock ledger.
+- Inventory valuation where the necessary cost data and calculation method exist.
+
+Display transaction direction, quantity, relevant unit, reference number, balance, date, and user.
+
+Provide server-side pagination and filtering for large datasets. Ensure that report totals reflect the selected filters.
+
+All reports must use actual database data. Do not hardcode values or introduce demo reports.
+
+---
+
+### 15. Excel Export
+
+Implement a functional Excel export feature for authorized users.
+
+Support exports for:
+
+- Inventory items.
+- Current stock balances.
+- Low-stock items.
+- Stock movements.
+- Other reports already supported by the module.
+
+Requirements:
+
+1. Export records from PostgreSQL.
+2. Respect the user's effective permissions.
+3. Apply the selected filters to the exported dataset.
+4. Export all matching records rather than only the current pagination page, unless the user explicitly selects the current page.
+5. Generate a valid `.xlsx` workbook.
+6. Include meaningful column headers and relevant units.
+7. Export First Name and Last Name separately wherever person details are included.
+8. Use a descriptive filename, such as `Nexora_Inventory_YYYY-MM-DD.xlsx`.
+9. Show a clear error when export fails or no records match.
+10. Protect against spreadsheet formula injection by safely handling untrusted text values.
+
+Do not export credentials, secrets, or unnecessary sensitive information.
+
+---
+
+### 16. Excel Import
+
+Implement Excel import for inventory items and other explicitly supported master data, such as categories or stock locations, only where appropriate.
+
+Do not allow spreadsheet imports to manipulate stock balances without going through the validated stock-transaction workflow.
+
+#### Import workflow
+
+1. User selects Import Excel.
+2. User downloads the matching template.
+3. User uploads a supported `.xlsx` file.
+4. The backend validates the file, worksheet, headers, field types, size, and row limits.
+5. The application previews the rows and validation results.
+6. Invalid rows show their row numbers and clear error messages.
+7. The user confirms the import.
+8. The backend revalidates and saves the valid data.
+9. The application displays a summary of processed, imported, skipped, updated, and failed rows.
+
+#### Validation and duplicate handling
+
+- Validate required fields and data types.
+- Validate item codes and category/unit references.
+- Detect duplicates within the uploaded file.
+- Check for duplicate records in PostgreSQL.
+- Never silently overwrite existing records.
+- Support explicit skip or update options only where appropriate and authorized.
+- Enforce PostgreSQL constraints.
+- Limit file size and row count.
+- Reject unsupported formats and unsafe content.
+- Do not execute uploaded file content.
+- Do not partially import data after an unexpected failure without clearly documented batch-processing behavior.
+
+For master-data imports, use transactions or controlled batches appropriate to the file size.
+
+For stock receipts, issues, adjustments, and transfers, use dedicated validated transaction workflows rather than directly importing arbitrary stock quantities into balance tables.
+
+Provide downloadable templates without sample records. Templates should contain headers and clear instructions only.
+
+---
+
+### 17. Supplier Integration
+
+Use the existing Supplier Management module.
+
+Where supplier details are required for a stock receipt, reference the existing supplier ID rather than copying supplier details into a separate inventory-only supplier table.
+
+Requirements:
+
+- Display supplier information from the existing record.
+- Validate that the selected supplier exists and is eligible for the operation.
+- Preserve supplier references in stock transaction history.
+- Do not create duplicate supplier records.
+- Do not create supplier users or supplier-facing functionality as part of this module unless already supported and specifically required.
+
+If purchase orders and goods receipt are implemented separately, use their existing integration points rather than duplicating their functionality.
+
+---
+
+### 18. Role-Based Access and Permissions
+
+Integrate with Nexora's existing Users, Roles, Permissions, and Menu Management system.
+
+Do not create a separate authentication or authorization mechanism.
+
+Use existing permission conventions where available. If the application uses compatible permission codes, the following capabilities may be required:
+
+```text
+inventory.view
+inventory.create
+inventory.update
+inventory.delete
+inventory.disable
+
+inventory.receive
+inventory.issue
+inventory.adjust
+inventory.transfer
+
+inventory.export
+inventory.import
+inventory.reports.view
+```
+
+These are permission-code examples. **Do not insert permission records or role assignments through seed files or demo-data scripts.**
+
+Requirements:
+
+- View permission controls access to inventory views and applicable reports.
+- Create permission controls item creation.
+- Update permission controls item editing.
+- Delete permission controls eligible deletion.
+- Disable permission controls disabling items.
+- Receive, Issue, Adjust, and Transfer control their respective stock operations.
+- Import and Export control bulk data operations.
+- Report permissions control report access.
+
+Apply permissions to the corresponding menu items and actions using the existing authorization management interface.
+
+Super Admin must retain full access through the existing protected system-level Super Admin capability.
+
+The frontend must show only authorized menu items and actions. **Every protected backend endpoint must independently enforce authorization.**
+
+Do not trust roles, permissions, account status, or privileged flags submitted by the client.
+
+Prevent ordinary users from escalating privileges or performing unauthorized stock operations through direct API requests.
+
+---
+
+### 19. PostgreSQL Database Migrations
+
+Inspect the existing PostgreSQL schema and migration history before making changes.
+
+Reuse existing inventory, product, category, unit, supplier, stock, audit, or location tables wherever possible.
+
+If functionality is missing, add only the required tables, columns, indexes, constraints, and relationships.
+
+The logical data model may include:
+
+- Inventory items.
+- Inventory categories.
+- Units of measure.
+- Stock locations.
+- Item-location stock balances.
+- Stock transaction headers.
+- Stock transaction lines.
+- Adjustment details where required.
+- Transfer details where required.
+
+These are logical entities, not instructions to create duplicate tables if equivalent structures already exist.
+
+#### Migration rules
+
+- PostgreSQL only.
+- Use the existing `DATABASE_URL` configuration.
+- Preserve existing data.
+- Do not insert inventory records, categories, units, warehouses, balances, transactions, or permission assignments as seeds.
+- Never recreate the existing Super Admin.
+- Do not drop or truncate application tables as part of normal migration execution.
+- Maintain appropriate foreign keys, unique constraints, and indexes.
+- Use transactions where supported and appropriate.
+- Provide clear migration errors.
+- Make migrations safe to rerun according to the existing migration framework.
+- Handle existing schema variations through explicit versioned migrations.
+
+Preserve the existing commands:
+
+```bash
+npm run db:init
+npm run db:clean
+npm run db:remove
+```
+
+`db:init` must apply pending migrations without creating demo records.
+
+`db:clean` and `db:remove` must preserve their documented destructive-operation safeguards and must never run automatically during application startup.
+
+---
+
+### 20. Data Integrity and Security
+
+Implement the following protections:
+
+- Backend validation for every stock operation.
+- PostgreSQL constraints for critical uniqueness and relationships.
+- Atomic balance updates.
+- Concurrency-safe stock issue and transfer operations.
+- Duplicate transaction prevention.
+- Proper transaction rollback on failure.
+- Authorization for sensitive adjustments and bulk operations.
+- Safe error responses without SQL details or credentials.
+- Audit history for stock changes.
+- Secure upload processing.
+- Spreadsheet formula-injection protection.
+- No direct client-side modification of stock balances.
+- No hardcoded stock values or fake records.
+- No deletion of historical data without an explicitly permitted business rule.
+
+All timestamps and formatting must follow existing application configuration, including `APP_TIMEZONE=Asia/Kolkata`, when configured.
+
+Use existing logging and audit mechanisms. Never log passwords, access tokens, or secrets.
+
+---
+
+### 21. Frontend and Usability
+
+Reuse the current Nexora design system, layout, forms, tables, dialogs, alerts, and validation components.
+
+Make only the changes needed to implement the inventory functionality.
+
+Requirements:
+
+- Responsive desktop, tablet, and mobile layouts.
+- Search, filtering, sorting, and pagination.
+- Accessible field labels and keyboard navigation.
+- Field-level validation messages below the applicable fields.
+- Loading and disabled submission states.
+- Confirmation dialogs for sensitive operations.
+- Clear success and failure messages.
+- Meaningful empty states.
+- Permission-aware buttons and navigation.
+- Consistent units and quantity formatting.
+- Clear transaction references and dates.
+
+Do not add unrelated dashboard cards, fake statistics, sample records, or unnecessary UI redesigns.
+
+---
+
+### 22. Testing and Verification
+
+Use the project's existing test framework. Run tests against an isolated test database where necessary.
+
+Verify:
+
+1. Existing root directory structure remains unchanged.
+2. Existing Super Admin remains intact.
+3. Inventory items can be created, viewed, edited, and disabled.
+4. Categories, units, and locations work as implemented.
+5. Stock receipts increase the correct balances.
+6. Stock issues decrease the correct balances.
+7. Negative stock is prevented according to the configured policy.
+8. Transfers change source and destination balances correctly.
+9. Adjustments require the appropriate permissions and reason.
+10. Transaction history is complete and traceable.
+11. Concurrent operations do not corrupt stock balances.
+12. Duplicate submissions do not post stock movements twice.
+13. Low-stock and out-of-stock reports are accurate.
+14. Excel exports contain actual filtered database results.
+15. Excel imports validate and report errors correctly.
+16. Spreadsheet imports cannot bypass stock transaction validation.
+17. Unauthorized users cannot bypass permissions through APIs.
+18. Supplier references use existing supplier records.
+19. Migrations preserve existing data.
+20. No seed, demo, dummy, or mock inventory data is created.
+21. Existing unrelated functionality remains operational.
+
+Run the relevant migration, test, lint, type-check, and build commands supported by the repository.
+
+Do not run destructive maintenance commands against production data.
+
+Report only test results that were actually verified. If a requirement is blocked by a missing dependency or existing architectural limitation, document it accurately.
+
+---
+
+### 23. Development Workflow
+
+Follow this implementation sequence:
+
+1. Review the existing Nexora repository, schema, migrations, APIs, and permissions.
+2. Identify existing inventory and supplier functionality.
+3. Determine the minimum files and database objects that need changes.
+4. Implement the required version-controlled PostgreSQL migrations.
+5. Implement item, category, unit, and location management as needed.
+6. Implement stock balances and controlled stock transactions.
+7. Implement transaction history, low-stock alerts, and reports.
+8. Integrate the existing Supplier Management and role-permission systems.
+9. Implement Excel import/export with backend validation.
+10. Run relevant tests and correct errors.
+11. Verify data integrity and preserve the existing application structure.
+12. Report changed files, migrations, actual test results, and unresolved issues.
+
+Do not stop after providing a plan or sample code. Make the actual code changes when the repository is available.
+
+### 24. Final Acceptance Criteria
+
+The task is complete only when:
+
+- The existing root folder structure is unchanged.
+- PostgreSQL is the only application database.
+- Inventory CRUD operations work with real database records.
+- Stock receipts, issues, adjustments, and applicable transfers update balances correctly.
+- The stock ledger preserves an auditable movement history.
+- Low-stock alerts and reports use actual database data.
+- Excel import/export works as specified.
+- Existing Supplier Management and role-permission functionality are reused.
+- Super Admin retains full application access.
+- Backend APIs independently enforce permissions.
+- Existing data and the current Super Admin are preserved.
+- No seeds, demo records, dummy values, or mock inventory records are introduced.
+- Database migrations and maintenance commands follow their existing safety rules.
+- Tests and builds have been run, and their actual results are reported.
+
+**Final instruction:** Implement Inventory Management as a functional extension of the current Nexora application. Preserve the project structure, database architecture, existing UI conventions, and working modules. Make only relevant functional changes, use PostgreSQL for all persistent inventory data, and do not introduce seed or dummy data.

@@ -1,0 +1,199 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 10960 >>
+stream
+0.063 0.106 0.196 rg
+0.00 729.89 595.28 112.00 re f
+0.000 0.518 0.800 rg
+0.00 725.89 595.28 4.00 re f
+BT 0.550 0.820 0.980 rg /F2 8.5 Tf 44.00 807.89 Td (NEXORA ERP  |  DOC-02 | REPORTING PROPOSAL  |  NOVEMBER 20, 2026) Tj ET
+BT 1.000 1.000 1.000 rg /F2 17.5 Tf 44.00 783.89 Td (02. Existing Application Reporting & Remediation) Tj ET
+BT 1.000 1.000 1.000 rg /F2 17.5 Tf 44.00 762.89 Td (Proposal) Tj ET
+BT 0.820 0.880 0.950 rg /F1 9.5 Tf 44.00 739.89 Td (Detailed Scope, Report Catalog, Export Architecture & Commercial Estimate for Part A \(RPT-01 to RPT-05\)) Tj ET
+0.955 0.968 0.985 rg
+0.60 w 0.820 0.860 0.910 RG
+44.00 655.89 120.82 52.00 re B
+0.000 0.518 0.800 rg
+44.00 704.89 120.82 3.00 re f
+BT 0.420 0.470 0.540 rg /F2 7.5 Tf 52.00 691.89 Td (PART A SCOPE) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.5 Tf 52.00 675.89 Td (5 Modules) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.2 Tf 52.00 663.89 Td (RPT-01 through RPT-05) Tj ET
+0.955 0.968 0.985 rg
+0.60 w 0.820 0.860 0.910 RG
+172.82 655.89 120.82 52.00 re B
+0.000 0.518 0.800 rg
+172.82 704.89 120.82 3.00 re f
+BT 0.420 0.470 0.540 rg /F2 7.5 Tf 180.82 691.89 Td (TOTAL EFFORT) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.5 Tf 180.82 675.89 Td (356 Hours) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.2 Tf 180.82 663.89 Td (210 Dev | 98 QA | 34 Coord | 1) Tj ET
+0.955 0.968 0.985 rg
+0.60 w 0.820 0.860 0.910 RG
+301.64 655.89 120.82 52.00 re B
+0.000 0.518 0.800 rg
+301.64 704.89 120.82 3.00 re f
+BT 0.420 0.470 0.540 rg /F2 7.5 Tf 309.64 691.89 Td (TIMELINE) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.5 Tf 309.64 675.89 Td (Weeks 1 - 12) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.2 Tf 309.64 663.89 Td (Phases 1-3 \(Parallel w/ COST-0) Tj ET
+0.955 0.968 0.985 rg
+0.60 w 0.820 0.860 0.910 RG
+430.46 655.89 120.82 52.00 re B
+0.000 0.518 0.800 rg
+430.46 704.89 120.82 3.00 re f
+BT 0.420 0.470 0.540 rg /F2 7.5 Tf 438.46 691.89 Td (PART A COST) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.5 Tf 438.46 675.89 Td (Rs. 5,03,200) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.2 Tf 438.46 663.89 Td (Excl. GST \(+18% = Rs. 5,93,776) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.0 Tf 44.00 635.89 Td (1. Current Reporting Gaps Identified in Source Code) Tj ET
+1.10 w 0.000 0.518 0.800 RG 44.00 631.39 m 551.28 631.39 l S
+0.000 0.518 0.800 rg
+46.00 620.09 3.50 3.50 re f
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 617.89 Td (Broken Inventory Reports Screen \(/inventory/reports\): Sidebar menu id:78 navigates correctly and sets) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 605.69 Td (activeTab='reports', but InventoryPage.tsx has zero JSX rendering for that tab, presenting a blank page.) Tj ET
+0.000 0.518 0.800 rg
+46.00 593.69 3.50 3.50 re f
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 591.49 Td (Inaccurate Performance Department Reports: Filtering performance analytics by department only filters the) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 579.29 Td (employee roster while KPI summary cards, trend graphs, and CSV exports still return company-wide totals.) Tj ET
+0.000 0.518 0.800 rg
+46.00 567.29 3.50 3.50 re f
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 565.09 Td (Unbuilt Central Reporting Hub \(/reports\): Module 10 currently renders PlannedModulePage placeholder in) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 552.89 Td (src/App.tsx:243-258.) Tj ET
+0.000 0.518 0.800 rg
+46.00 540.89 3.50 3.50 re f
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 538.69 Td (Misleading 'Recent' Dashboard Counters: server/store.ts:4818-4821 totals all-time stock receipts, issues,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 526.49 Td (adjustments, and transfers instead of rolling 7-day or 30-day activity.) Tj ET
+0.000 0.518 0.800 rg
+46.00 514.49 3.50 3.50 re f
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 512.29 Td (Zero PDF Export Engine: Management has no branded PDF generation for inventory valuation, audit packs,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 500.09 Td (supplier scorecards, or executive summaries.) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.0 Tf 44.00 476.89 Td (2. Proposed Reporting Suite Deliverables \(RPT-01 to RPT-05\)) Tj ET
+1.10 w 0.000 0.518 0.800 RG 44.00 472.39 m 551.28 472.39 l S
+0.063 0.106 0.196 rg
+44.00 428.09 507.28 30.80 re f
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 48.50 447.09 Td (Code) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 94.16 447.09 Td (Deliverable) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 200.68 447.09 Td (Key Reports & Capabilities) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 373.16 447.09 Td (Formats) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 428.96 447.09 Td (Hrs) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 428.96 436.69 Td (\(D/Q/C/S\)) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 489.83 447.09 Td (Cost Excl. GST) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 388.89 507.28 39.20 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 416.79 Td (RPT-01) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 94.16 416.79 Td (Security, SQLi, RBAC &) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 94.16 406.39 Td (Lint Hardening) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 416.79 Td (Protect /api/performance &) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 406.39 Td (/api/warehouses, parameterize SQL,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 395.99 Td (remove fallback secrets, fix TS lint.) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 416.79 Td (QA Sign-off) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 428.96 416.79 Td (58 / 28 / 8) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 428.96 406.39 Td (/ 4) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 489.83 416.79 Td (Rs. 1,38,800) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 349.69 507.28 39.20 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 377.59 Td (RPT-02) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 94.16 377.59 Td (Inventory Reports &) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 94.16 367.19 Td (Valuation Tab) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 377.59 Td (Weighted Avg/FIFO valuation, stock) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 367.19 Td (ageing \(0-30/31-60/90+\), dead stock,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 356.79 Td (reorder variance, rolling 7d/30d KPIs.) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 377.59 Td (PDF, XLSX,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 367.19 Td (CSV) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 428.96 377.59 Td (44 / 20 / 7) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 428.96 367.19 Td (/ 3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 489.83 377.59 Td (Rs. 1,04,900) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 310.49 507.28 39.20 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 338.39 Td (RPT-03) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 94.16 338.39 Td (Performance Analytics &) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 94.16 327.99 Td (Dept Fix) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 338.39 Td (Fix dept-scoped KPIs/trends/exports,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 327.99 Td (shift productivity scorecards, anomaly) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 317.59 Td (log, branded dept PDF.) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 338.39 Td (PDF, XLSX,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 327.99 Td (CSV) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 428.96 338.39 Td (40 / 19 / 7) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 428.96 327.99 Td (/ 3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 489.83 338.39 Td (Rs. 96,800) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 271.29 507.28 39.20 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 299.19 Td (RPT-04) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 94.16 299.19 Td (Unified Reporting &) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 94.16 288.79 Td (Analytics Hub) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 299.19 Td (Central /reports catalog covering) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 288.79 Td (Inventory, Procurement, Warehouses,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 278.39 Td (Users & Performance with saved filters.) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 299.19 Td (PDF, XLSX,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 288.79 Td (CSV) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 428.96 299.19 Td (46 / 19 / 8) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 428.96 288.79 Td (/ 3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 489.83 299.19 Td (Rs. 1,08,400) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 232.09 507.28 39.20 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 259.99 Td (RPT-05) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 94.16 259.99 Td (Scheduled Reports &) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 94.16 249.59 Td (Audit Exports) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 259.99 Td (Automated daily/weekly SMTP email report) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 249.59 Td (scheduler, tamper-evident Audit Trail) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 200.68 239.19 Td (PDF/XLSX packs.) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 259.99 Td (PDF, XLSX,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 249.59 Td (Email) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 428.96 259.99 Td (22 / 12 / 4) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 428.96 249.59 Td (/ 1) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 489.83 259.99 Td (Rs. 54,300) Tj ET
+0.890 0.935 0.980 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 203.29 507.28 28.80 re B
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 48.50 220.79 Td (TOTAL) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 94.16 220.79 Td (PART A  -  REMEDIATION &) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 94.16 210.39 Td (REPORTING) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 200.68 220.79 Td (5 Modules | 356 Total Hours \(Zero Double) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 200.68 210.39 Td (Counting\)) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 373.16 220.79 Td (All Formats) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 428.96 220.79 Td (210 / 98 /) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 428.96 210.39 Td (34 / 14) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 489.83 220.79 Td (Rs. 5,03,200) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.0 Tf 44.00 187.29 Td (3. Export Engine & Security Standards) Tj ET
+1.10 w 0.000 0.518 0.800 RG 44.00 182.79 m 551.28 182.79 l S
+BT 0.180 0.230 0.300 rg /F1 9.0 Tf 44.00 169.29 Td (Every report will inherit dynamic Nexora Company Branding \(logo, legal entity name, timestamp, generated-by) Tj ET
+BT 0.180 0.230 0.300 rg /F1 9.0 Tf 44.00 156.69 Td (user, and active filter criteria\) and enforce strict server-side RBAC permissions \(reports.inventory,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 9.0 Tf 44.00 144.09 Td (reports.performance, reports.audit, reports.finance\) so users can never export data outside their authorized) Tj ET
+BT 0.180 0.230 0.300 rg /F1 9.0 Tf 44.00 131.49 Td (role or department.) Tj ET
+0.60 w 0.820 0.860 0.910 RG 44.00 34.00 m 551.28 34.00 l S
+BT 0.420 0.470 0.540 rg /F1 7.6 Tf 44.00 22.00 Td (NEXORA ERP - Confidential Audit, Costing & Indian HRMS Documentation) Tj ET
+BT 0.420 0.470 0.540 rg /F2 7.6 Tf 499.28 22.00 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000320 00000 n 
+0000000462 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+11475
+%%EOF

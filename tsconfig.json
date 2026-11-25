@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "types": ["vite/client"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "include": [
+    "src/App.tsx",
+    "src/main.tsx",
+    "server.ts",
+    "server/authService.ts",
+    "server/performanceRoutes.ts",
+    "server/db.ts",
+    "server/store.ts",
+    "server/email.ts",
+    "server/emailService.ts",
+    "server/config/**/*.ts",
+    "server/security/**/*.ts",
+    "scripts/**/*.ts",
+    "frontend/config/**/*.ts",
+    "frontend/pages/SecurityCenterPage.tsx",
+    "frontend/utils/deviceId.ts",
+    "vite.config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "Backend",
+    "frontend/src",
+    "scripts/migrate_to_postgres.ts",
+    "server/reorderRoutes.ts",
+    "src/frontend",
+    "src/server",
+    "src/Backend",
+    "src/src",
+    "src/scripts",
+    "src/server.ts"
+  ]
+}

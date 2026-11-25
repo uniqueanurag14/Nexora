@@ -1,0 +1,1834 @@
+{
+  "version": "1.0",
+  "created_at": "2026-10-30T10:31:05.855Z",
+  "type": "MANUAL",
+  "created_by": "admin@nexora.io",
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "first_name": "System",
+        "last_name": "Administrator",
+        "email": "dev.sinha14@gmail.com",
+        "username": "superadmin",
+        "phone": "+1-555-0199",
+        "department": "Executive Operations",
+        "password_hash": "$2b$12$3VZpgdIwkxOyKUFjoUjTn.nbKiti2VGuUnoPyPc9OqykM2KJ8lqEy",
+        "role": "super_admin",
+        "is_active": true,
+        "is_verified": true,
+        "last_login_at": "2026-10-28T12:31:01.911Z",
+        "created_at": "2026-10-18T11:38:19.534Z",
+        "name": "System Administrator",
+        "roles": [
+          "super_admin"
+        ],
+        "profile_picture": "https://images.example.com/avatar1.jpg"
+      }
+    ],
+    "roles": [
+      {
+        "id": 1,
+        "name": "Super Administrator",
+        "code": "super_admin",
+        "description": "Full unrestricted administrative privileges and ownership across all modules",
+        "is_system": true,
+        "is_active": true,
+        "created_at": "2026-10-21T07:09:20.435Z",
+        "updated_at": "2026-10-21T07:09:20.435Z"
+      },
+      {
+        "id": 2,
+        "name": "Administrator",
+        "code": "admin",
+        "description": "Operational administration, user account management, and operational workflows",
+        "is_system": true,
+        "is_active": true,
+        "created_at": "2026-10-21T07:09:20.435Z",
+        "updated_at": "2026-10-21T07:09:20.435Z"
+      },
+      {
+        "id": 3,
+        "name": "Standard User",
+        "code": "user",
+        "description": "Standard employee/user access to personal profile, assigned workflows, and dashboard",
+        "is_system": true,
+        "is_active": true,
+        "created_at": "2026-10-21T07:09:20.435Z",
+        "updated_at": "2026-10-21T07:09:20.435Z"
+      },
+      {
+        "id": 4,
+        "name": "Auditor",
+        "code": "auditor",
+        "description": "Security & compliance officer with read-only access to audit trail and reports",
+        "is_system": false,
+        "is_active": true,
+        "created_at": "2026-10-21T07:09:20.435Z",
+        "updated_at": "2026-10-21T07:09:20.435Z"
+      },
+      {
+        "id": 5,
+        "name": "Performance User",
+        "code": "performance_user",
+        "description": "Dedicated workforce performance monitoring, employee registration, and work event tracking",
+        "is_system": true,
+        "is_active": true,
+        "created_at": "2026-10-29T12:18:55.793Z",
+        "updated_at": "2026-10-29T12:18:55.793Z"
+      }
+    ],
+    "permissions": [
+      {
+        "code": "users.view",
+        "name": "View Users and Employees Directory",
+        "module": "Users",
+        "category": "action"
+      },
+      {
+        "code": "users.create",
+        "name": "Create User and Employee Accounts",
+        "module": "Users",
+        "category": "action"
+      },
+      {
+        "code": "users.edit",
+        "name": "Edit User Information & Roles",
+        "module": "Users",
+        "category": "action"
+      },
+      {
+        "code": "users.update",
+        "name": "Update User Information (Legacy Alias)",
+        "module": "Users",
+        "category": "action"
+      },
+      {
+        "code": "users.delete",
+        "name": "Delete User Accounts",
+        "module": "Users",
+        "category": "action"
+      },
+      {
+        "code": "users.disable",
+        "name": "Disable / Deactivate User Accounts",
+        "module": "Users",
+        "category": "action"
+      },
+      {
+        "code": "roles.view",
+        "name": "View System Roles & Permissions",
+        "module": "Roles",
+        "category": "action"
+      },
+      {
+        "code": "roles.create",
+        "name": "Create Custom System Roles",
+        "module": "Roles",
+        "category": "action"
+      },
+      {
+        "code": "roles.edit",
+        "name": "Edit Roles & Assign Permissions",
+        "module": "Roles",
+        "category": "action"
+      },
+      {
+        "code": "roles.update",
+        "name": "Update Roles (Legacy Alias)",
+        "module": "Roles",
+        "category": "action"
+      },
+      {
+        "code": "roles.delete",
+        "name": "Delete Custom System Roles",
+        "module": "Roles",
+        "category": "action"
+      },
+      {
+        "code": "roles.disable",
+        "name": "Disable / Deactivate Roles",
+        "module": "Roles",
+        "category": "action"
+      },
+      {
+        "code": "permissions.view",
+        "name": "View Permission Catalog",
+        "module": "Permissions",
+        "category": "action"
+      },
+      {
+        "code": "permissions.create",
+        "name": "Define New System Permissions",
+        "module": "Permissions",
+        "category": "action"
+      },
+      {
+        "code": "permissions.edit",
+        "name": "Edit Permission Definitions",
+        "module": "Permissions",
+        "category": "action"
+      },
+      {
+        "code": "permissions.delete",
+        "name": "Delete Custom Permissions",
+        "module": "Permissions",
+        "category": "action"
+      },
+      {
+        "code": "permissions.disable",
+        "name": "Disable Permissions",
+        "module": "Permissions",
+        "category": "action"
+      },
+      {
+        "code": "permissions.assign",
+        "name": "Assign Permissions to Roles",
+        "module": "Permissions",
+        "category": "action"
+      },
+      {
+        "code": "profile.view",
+        "name": "View Own Profile",
+        "module": "Profile",
+        "category": "action"
+      },
+      {
+        "code": "profile.edit",
+        "name": "Update Own Profile",
+        "module": "Profile",
+        "category": "action"
+      },
+      {
+        "code": "profile.update",
+        "name": "Update Own Profile (Legacy Alias)",
+        "module": "Profile",
+        "category": "action"
+      },
+      {
+        "code": "profile.password",
+        "name": "Change Own Password",
+        "module": "Profile",
+        "category": "action"
+      },
+      {
+        "code": "security.password.change",
+        "name": "Change Own Password",
+        "module": "Profile",
+        "category": "action"
+      },
+      {
+        "code": "security.password.reset",
+        "name": "Reset Account Password",
+        "module": "Profile",
+        "category": "action"
+      },
+      {
+        "code": "dashboard.view",
+        "name": "View Role-Based Dashboard",
+        "module": "Dashboard",
+        "category": "menu"
+      },
+      {
+        "code": "settings.view",
+        "name": "View System Settings",
+        "module": "Settings",
+        "category": "menu"
+      },
+      {
+        "code": "settings.edit",
+        "name": "Update System Settings",
+        "module": "Settings",
+        "category": "action"
+      },
+      {
+        "code": "settings.update",
+        "name": "Update System Settings (Legacy Alias)",
+        "module": "Settings",
+        "category": "action"
+      },
+      {
+        "code": "settings.backup",
+        "name": "Manage Database Backups",
+        "module": "Settings",
+        "category": "action"
+      },
+      {
+        "code": "settings.sessions",
+        "name": "View & Revoke Active Sessions",
+        "module": "Settings",
+        "category": "action"
+      },
+      {
+        "code": "backups.manage",
+        "name": "Manage Database Backups",
+        "module": "Settings",
+        "category": "action"
+      },
+      {
+        "code": "sessions.manage",
+        "name": "View & Revoke Active Sessions",
+        "module": "Settings",
+        "category": "action"
+      },
+      {
+        "code": "menu.dashboard",
+        "name": "View Dashboard",
+        "module": "Dashboard",
+        "category": "menu"
+      },
+      {
+        "code": "menu.users",
+        "name": "Access User & Role Management",
+        "module": "Users",
+        "category": "menu"
+      },
+      {
+        "code": "menu.workforce",
+        "name": "Access Workforce Module",
+        "module": "Workforce",
+        "category": "menu"
+      },
+      {
+        "code": "menu.inventory",
+        "name": "Access Inventory Module",
+        "module": "Inventory",
+        "category": "menu"
+      },
+      {
+        "code": "menu.suppliers",
+        "name": "Access Suppliers Module",
+        "module": "Suppliers",
+        "category": "menu"
+      },
+      {
+        "code": "menu.purchasing",
+        "name": "Access Purchasing Module",
+        "module": "Purchasing",
+        "category": "menu"
+      },
+      {
+        "code": "menu.goods_receipt",
+        "name": "Access Goods Receipt Module",
+        "module": "Goods Receipt",
+        "category": "menu"
+      },
+      {
+        "code": "menu.reports",
+        "name": "Access Reports Module",
+        "module": "Reports",
+        "category": "menu"
+      },
+      {
+        "code": "menu.audit_system",
+        "name": "Access System Audit & Settings",
+        "module": "Audit",
+        "category": "menu"
+      },
+      {
+        "code": "menu.settings",
+        "name": "Access General Settings",
+        "module": "Settings",
+        "category": "menu"
+      },
+      {
+        "code": "menu.profile",
+        "name": "Access My Profile",
+        "module": "Profile",
+        "category": "menu"
+      },
+      {
+        "code": "menu.change_password",
+        "name": "Access Change Password",
+        "module": "Profile",
+        "category": "menu"
+      },
+      {
+        "code": "suppliers.view",
+        "name": "View Supplier Directory and Profiles",
+        "module": "Suppliers",
+        "category": "action"
+      },
+      {
+        "code": "suppliers.create",
+        "name": "Create and Register New Suppliers",
+        "module": "Suppliers",
+        "category": "action"
+      },
+      {
+        "code": "suppliers.edit",
+        "name": "Edit Supplier Information",
+        "module": "Suppliers",
+        "category": "action"
+      },
+      {
+        "code": "suppliers.update",
+        "name": "Update Supplier Information (Alias)",
+        "module": "Suppliers",
+        "category": "action"
+      },
+      {
+        "code": "suppliers.delete",
+        "name": "Delete Supplier Records",
+        "module": "Suppliers",
+        "category": "action"
+      },
+      {
+        "code": "suppliers.disable",
+        "name": "Disable / Deactivate Suppliers",
+        "module": "Suppliers",
+        "category": "action"
+      },
+      {
+        "code": "suppliers.export",
+        "name": "Export Supplier Data to Excel",
+        "module": "Suppliers",
+        "category": "action"
+      },
+      {
+        "code": "suppliers.import",
+        "name": "Import Suppliers from Excel Spreadsheet",
+        "module": "Suppliers",
+        "category": "action"
+      },
+      {
+        "code": "menu.inventory",
+        "name": "Access Inventory Module",
+        "module": "Inventory",
+        "category": "menu"
+      },
+      {
+        "code": "inventory.view",
+        "name": "View Inventory Master and Stock Balances",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "inventory.create",
+        "name": "Create and Register Inventory Items",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "inventory.edit",
+        "name": "Edit Inventory Items",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "inventory.update",
+        "name": "Update Inventory Items (Alias)",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "inventory.delete",
+        "name": "Delete Inventory Records",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "inventory.disable",
+        "name": "Disable / Deactivate Items",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "inventory.receive",
+        "name": "Receive Stock Into Warehouses",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "inventory.issue",
+        "name": "Issue Stock Out of Warehouses",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "inventory.adjust",
+        "name": "Adjust Stock Balances with Count Discrepancy",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "inventory.transfer",
+        "name": "Transfer Stock Across Warehouses",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "inventory.reorder",
+        "name": "Create and Manage Supplier Reorders",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "inventory.export",
+        "name": "Export Inventory Data to Excel",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "inventory.import",
+        "name": "Import Inventory Items from Excel",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "inventory.reports.view",
+        "name": "View Inventory Valuation & Movements Reports",
+        "module": "Inventory",
+        "category": "action"
+      },
+      {
+        "code": "action.profile_update",
+        "name": "Update Own Profile",
+        "module": "Profile",
+        "category": "action"
+      },
+      {
+        "code": "action.password_change",
+        "name": "Change Own Password",
+        "module": "Profile",
+        "category": "action"
+      },
+      {
+        "code": "action.settings_update",
+        "name": "Update System Settings",
+        "module": "Settings",
+        "category": "action"
+      },
+      {
+        "code": "action.backup_manage",
+        "name": "Manage Database Backups",
+        "module": "Settings",
+        "category": "action"
+      },
+      {
+        "code": "action.session_revoke",
+        "name": "Revoke Active Sessions",
+        "module": "Settings",
+        "category": "action"
+      },
+      {
+        "code": "action.users_view",
+        "name": "View All User Accounts",
+        "module": "Users",
+        "category": "data"
+      }
+    ],
+    "role_permissions": [
+      {
+        "role": "super_admin",
+        "permission_code": "menu.dashboard"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "menu.workforce"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "menu.inventory"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "menu.suppliers"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "menu.purchasing"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "menu.goods_receipt"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "menu.reports"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "menu.audit_system"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "menu.settings"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "menu.profile"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "menu.change_password"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "action.profile_update"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "action.password_change"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "action.settings_update"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "action.backup_manage"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "action.session_revoke"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "action.users_view"
+      },
+      {
+        "role": "admin",
+        "permission_code": "menu.dashboard"
+      },
+      {
+        "role": "admin",
+        "permission_code": "menu.workforce"
+      },
+      {
+        "role": "admin",
+        "permission_code": "menu.inventory"
+      },
+      {
+        "role": "admin",
+        "permission_code": "menu.suppliers"
+      },
+      {
+        "role": "admin",
+        "permission_code": "menu.purchasing"
+      },
+      {
+        "role": "admin",
+        "permission_code": "menu.goods_receipt"
+      },
+      {
+        "role": "admin",
+        "permission_code": "menu.reports"
+      },
+      {
+        "role": "admin",
+        "permission_code": "menu.profile"
+      },
+      {
+        "role": "admin",
+        "permission_code": "menu.change_password"
+      },
+      {
+        "role": "admin",
+        "permission_code": "action.profile_update"
+      },
+      {
+        "role": "admin",
+        "permission_code": "action.password_change"
+      },
+      {
+        "role": "admin",
+        "permission_code": "action.users_view"
+      },
+      {
+        "role": "user",
+        "permission_code": "menu.dashboard"
+      },
+      {
+        "role": "user",
+        "permission_code": "menu.profile"
+      },
+      {
+        "role": "user",
+        "permission_code": "menu.change_password"
+      },
+      {
+        "role": "user",
+        "permission_code": "action.profile_update"
+      },
+      {
+        "role": "user",
+        "permission_code": "action.password_change"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "users.view"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "users.create"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "users.update"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "users.delete"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "roles.view"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "roles.create"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "roles.update"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "roles.delete"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "permissions.view"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "permissions.assign"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "profile.view"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "profile.update"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "security.password.change"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "security.password.reset"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "dashboard.view"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "settings.view"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "settings.update"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "backups.manage"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "sessions.manage"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "menu.users"
+      },
+      {
+        "role": "admin",
+        "permission_code": "users.view"
+      },
+      {
+        "role": "admin",
+        "permission_code": "users.create"
+      },
+      {
+        "role": "admin",
+        "permission_code": "users.update"
+      },
+      {
+        "role": "admin",
+        "permission_code": "users.delete"
+      },
+      {
+        "role": "admin",
+        "permission_code": "roles.view"
+      },
+      {
+        "role": "admin",
+        "permission_code": "roles.create"
+      },
+      {
+        "role": "admin",
+        "permission_code": "roles.update"
+      },
+      {
+        "role": "admin",
+        "permission_code": "permissions.view"
+      },
+      {
+        "role": "admin",
+        "permission_code": "permissions.assign"
+      },
+      {
+        "role": "admin",
+        "permission_code": "profile.view"
+      },
+      {
+        "role": "admin",
+        "permission_code": "profile.update"
+      },
+      {
+        "role": "admin",
+        "permission_code": "security.password.change"
+      },
+      {
+        "role": "admin",
+        "permission_code": "dashboard.view"
+      },
+      {
+        "role": "admin",
+        "permission_code": "menu.users"
+      },
+      {
+        "role": "user",
+        "permission_code": "profile.view"
+      },
+      {
+        "role": "user",
+        "permission_code": "profile.update"
+      },
+      {
+        "role": "user",
+        "permission_code": "security.password.change"
+      },
+      {
+        "role": "user",
+        "permission_code": "dashboard.view"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "users.view"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "roles.view"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "permissions.view"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "profile.view"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "dashboard.view"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "settings.view"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "menu.dashboard"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "menu.reports"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "menu.audit_system"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "menu.settings"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "menu.profile"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "action.users_view"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "users.edit"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "users.disable"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "roles.edit"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "roles.disable"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "permissions.create"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "permissions.edit"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "permissions.delete"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "permissions.disable"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "profile.edit"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "profile.password"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "settings.edit"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "settings.backup"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "settings.sessions"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "suppliers.view"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "suppliers.create"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "suppliers.edit"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "suppliers.update"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "suppliers.delete"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "suppliers.disable"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "suppliers.export"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "suppliers.import"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.view"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.create"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.edit"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.update"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.delete"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.disable"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.receive"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.issue"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.adjust"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.transfer"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.reorder"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.export"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.import"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "inventory.reports.view"
+      },
+      {
+        "role": "admin",
+        "permission_code": "suppliers.view"
+      },
+      {
+        "role": "admin",
+        "permission_code": "suppliers.create"
+      },
+      {
+        "role": "admin",
+        "permission_code": "suppliers.edit"
+      },
+      {
+        "role": "admin",
+        "permission_code": "suppliers.update"
+      },
+      {
+        "role": "admin",
+        "permission_code": "suppliers.delete"
+      },
+      {
+        "role": "admin",
+        "permission_code": "suppliers.disable"
+      },
+      {
+        "role": "admin",
+        "permission_code": "suppliers.export"
+      },
+      {
+        "role": "admin",
+        "permission_code": "suppliers.import"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.view"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.create"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.edit"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.update"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.delete"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.disable"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.receive"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.issue"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.adjust"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.transfer"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.reorder"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.export"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.import"
+      },
+      {
+        "role": "admin",
+        "permission_code": "inventory.reports.view"
+      },
+      {
+        "role": "user",
+        "permission_code": "suppliers.view"
+      },
+      {
+        "role": "user",
+        "permission_code": "suppliers.export"
+      },
+      {
+        "role": "user",
+        "permission_code": "inventory.view"
+      },
+      {
+        "role": "user",
+        "permission_code": "inventory.export"
+      },
+      {
+        "role": "user",
+        "permission_code": "inventory.reports.view"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "suppliers.view"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "suppliers.export"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "inventory.view"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "inventory.export"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "inventory.reports.view"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "performance.view"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "performance.manage"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "performance.simulate"
+      },
+      {
+        "role": "super_admin",
+        "permission_code": "performance.export"
+      },
+      {
+        "role": "admin",
+        "permission_code": "performance.view"
+      },
+      {
+        "role": "admin",
+        "permission_code": "performance.manage"
+      },
+      {
+        "role": "admin",
+        "permission_code": "performance.simulate"
+      },
+      {
+        "role": "admin",
+        "permission_code": "performance.export"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "performance.view"
+      },
+      {
+        "role": "auditor",
+        "permission_code": "performance.export"
+      },
+      {
+        "role": "performance_user",
+        "permission_code": "menu.dashboard"
+      },
+      {
+        "role": "performance_user",
+        "permission_code": "dashboard.view"
+      },
+      {
+        "role": "performance_user",
+        "permission_code": "menu.workforce"
+      },
+      {
+        "role": "performance_user",
+        "permission_code": "performance.view"
+      },
+      {
+        "role": "performance_user",
+        "permission_code": "performance.manage"
+      },
+      {
+        "role": "performance_user",
+        "permission_code": "performance.simulate"
+      },
+      {
+        "role": "performance_user",
+        "permission_code": "performance.export"
+      },
+      {
+        "role": "performance_user",
+        "permission_code": "profile.view"
+      },
+      {
+        "role": "performance_user",
+        "permission_code": "profile.update"
+      },
+      {
+        "role": "performance_user",
+        "permission_code": "security.password.change"
+      },
+      {
+        "role": "performance_user",
+        "permission_code": "menu.profile"
+      },
+      {
+        "role": "performance_user",
+        "permission_code": "menu.change_password"
+      }
+    ],
+    "navigation_menus": [
+      {
+        "id": 1,
+        "label": "Dashboard",
+        "icon": "LayoutDashboard",
+        "route": "/dashboard",
+        "parent_id": null,
+        "display_order": 1,
+        "is_active": true,
+        "required_permission": "menu.dashboard",
+        "module_tag": "core",
+        "is_implemented": true
+      },
+      {
+        "id": 2,
+        "label": "Administration",
+        "icon": "Shield",
+        "route": "/users",
+        "parent_id": null,
+        "display_order": 2,
+        "is_active": true,
+        "required_permission": "users.view",
+        "module_tag": "module3",
+        "is_implemented": true
+      },
+      {
+        "id": 3,
+        "label": "Users & Employees",
+        "icon": "Users",
+        "route": "/users",
+        "parent_id": 2,
+        "display_order": 1,
+        "is_active": true,
+        "required_permission": "users.view",
+        "module_tag": "module3",
+        "is_implemented": true
+      },
+      {
+        "id": 4,
+        "label": "Roles & Access",
+        "icon": "UserCheck",
+        "route": "/roles",
+        "parent_id": 2,
+        "display_order": 2,
+        "is_active": true,
+        "required_permission": "roles.view",
+        "module_tag": "module3",
+        "is_implemented": true
+      },
+      {
+        "id": 5,
+        "label": "Permissions Catalog",
+        "icon": "Key",
+        "route": "/permissions",
+        "parent_id": 2,
+        "display_order": 3,
+        "is_active": true,
+        "required_permission": "permissions.view",
+        "module_tag": "module3",
+        "is_implemented": true
+      },
+      {
+        "id": 6,
+        "label": "Workforce & Monitoring",
+        "icon": "Briefcase",
+        "route": "/workforce/performance/live",
+        "parent_id": null,
+        "display_order": 3,
+        "is_active": true,
+        "required_permission": "menu.workforce",
+        "module_tag": "module5",
+        "is_implemented": true
+      },
+      {
+        "id": 60,
+        "label": "Performance Management",
+        "icon": "TrendingUp",
+        "route": "/workforce/performance/live",
+        "parent_id": 6,
+        "display_order": 1,
+        "is_active": true,
+        "required_permission": "menu.workforce",
+        "module_tag": "module5",
+        "is_implemented": true
+      },
+      {
+        "id": 61,
+        "label": "Live Performance",
+        "icon": "Monitor",
+        "route": "/workforce/performance/live",
+        "parent_id": 60,
+        "display_order": 2,
+        "is_active": true,
+        "required_permission": "menu.workforce",
+        "module_tag": "module5",
+        "is_implemented": true
+      },
+      {
+        "id": 62,
+        "label": "Performance Reports",
+        "icon": "BarChart2",
+        "route": "/workforce/performance/reports",
+        "parent_id": 60,
+        "display_order": 3,
+        "is_active": true,
+        "required_permission": "menu.workforce",
+        "module_tag": "module5",
+        "is_implemented": true
+      },
+      {
+        "id": 7,
+        "label": "Inventory Management",
+        "icon": "Package",
+        "route": "/inventory",
+        "parent_id": null,
+        "display_order": 4,
+        "is_active": true,
+        "required_permission": "inventory.view",
+        "module_tag": "module6",
+        "is_implemented": true
+      },
+      {
+        "id": 71,
+        "label": "Inventory Dashboard",
+        "icon": "LayoutDashboard",
+        "route": "/inventory/dashboard",
+        "parent_id": 7,
+        "display_order": 1,
+        "is_active": true,
+        "required_permission": "inventory.view",
+        "module_tag": "module6",
+        "is_implemented": true
+      },
+      {
+        "id": 72,
+        "label": "Items / Products",
+        "icon": "Package",
+        "route": "/inventory/items",
+        "parent_id": 7,
+        "display_order": 2,
+        "is_active": true,
+        "required_permission": "inventory.view",
+        "module_tag": "module6",
+        "is_implemented": true
+      },
+      {
+        "id": 73,
+        "label": "Categories & Units",
+        "icon": "FolderTree",
+        "route": "/inventory/categories",
+        "parent_id": 7,
+        "display_order": 3,
+        "is_active": true,
+        "required_permission": "inventory.view",
+        "module_tag": "module6",
+        "is_implemented": true
+      },
+      {
+        "id": 74,
+        "label": "Warehouses / Locations",
+        "icon": "Building2",
+        "route": "/inventory/warehouses",
+        "parent_id": 7,
+        "display_order": 4,
+        "is_active": true,
+        "required_permission": "inventory.view",
+        "module_tag": "module6",
+        "is_implemented": true
+      },
+      {
+        "id": 75,
+        "label": "Stock Operations",
+        "icon": "ArrowLeftRight",
+        "route": "/inventory/operations",
+        "parent_id": 7,
+        "display_order": 5,
+        "is_active": true,
+        "required_permission": "inventory.view",
+        "module_tag": "module6",
+        "is_implemented": true
+      },
+      {
+        "id": 76,
+        "label": "Stock Movements",
+        "icon": "TrendingUp",
+        "route": "/inventory/movements",
+        "parent_id": 7,
+        "display_order": 6,
+        "is_active": true,
+        "required_permission": "inventory.view",
+        "module_tag": "module6",
+        "is_implemented": true
+      },
+      {
+        "id": 77,
+        "label": "Low Stock Alerts",
+        "icon": "AlertTriangle",
+        "route": "/inventory/alerts",
+        "parent_id": 7,
+        "display_order": 7,
+        "is_active": true,
+        "required_permission": "inventory.view",
+        "module_tag": "module6",
+        "is_implemented": true
+      },
+      {
+        "id": 80,
+        "label": "Reorders & Negotiations",
+        "icon": "ShoppingCart",
+        "route": "/inventory/reorders",
+        "parent_id": 7,
+        "display_order": 8,
+        "is_active": true,
+        "required_permission": "inventory.view",
+        "module_tag": "module6",
+        "is_implemented": true
+      },
+      {
+        "id": 78,
+        "label": "Reports & Valuation",
+        "icon": "PieChart",
+        "route": "/inventory/reports",
+        "parent_id": 7,
+        "display_order": 9,
+        "is_active": true,
+        "required_permission": "inventory.reports.view",
+        "module_tag": "module6",
+        "is_implemented": true
+      },
+      {
+        "id": 79,
+        "label": "Import / Export",
+        "icon": "FileSpreadsheet",
+        "route": "/inventory/import-export",
+        "parent_id": 7,
+        "display_order": 10,
+        "is_active": true,
+        "required_permission": "inventory.view",
+        "module_tag": "module6",
+        "is_implemented": true
+      },
+      {
+        "id": 8,
+        "label": "Supplier Management",
+        "icon": "Truck",
+        "route": "/suppliers/directory",
+        "parent_id": null,
+        "display_order": 5,
+        "is_active": true,
+        "required_permission": "suppliers.view",
+        "module_tag": "module7",
+        "is_implemented": true
+      },
+      {
+        "id": 81,
+        "label": "Suppliers Directory",
+        "icon": "Building2",
+        "route": "/suppliers/directory",
+        "parent_id": 8,
+        "display_order": 1,
+        "is_active": true,
+        "required_permission": "suppliers.view",
+        "module_tag": "module7",
+        "is_implemented": true
+      },
+      {
+        "id": 9,
+        "label": "Purchase Requests",
+        "icon": "ShoppingCart",
+        "route": "/purchasing",
+        "parent_id": null,
+        "display_order": 6,
+        "is_active": true,
+        "required_permission": "menu.purchasing",
+        "module_tag": "module8",
+        "is_implemented": false
+      },
+      {
+        "id": 10,
+        "label": "Goods Receipt",
+        "icon": "ClipboardCheck",
+        "route": "/goods-receipt",
+        "parent_id": null,
+        "display_order": 7,
+        "is_active": true,
+        "required_permission": "menu.goods_receipt",
+        "module_tag": "module9",
+        "is_implemented": false
+      },
+      {
+        "id": 11,
+        "label": "Reports & Analytics",
+        "icon": "PieChart",
+        "route": "/reports",
+        "parent_id": null,
+        "display_order": 8,
+        "is_active": true,
+        "required_permission": "menu.reports",
+        "module_tag": "module10",
+        "is_implemented": false
+      },
+      {
+        "id": 12,
+        "label": "Settings",
+        "icon": "Settings",
+        "route": "/settings",
+        "parent_id": null,
+        "display_order": 9,
+        "is_active": true,
+        "required_permission": "menu.settings",
+        "module_tag": "core",
+        "is_implemented": true
+      },
+      {
+        "id": 13,
+        "label": "General Settings",
+        "icon": "SlidersHorizontal",
+        "route": "/settings/general",
+        "parent_id": 12,
+        "display_order": 1,
+        "is_active": true,
+        "required_permission": "menu.settings",
+        "module_tag": "core",
+        "is_implemented": true
+      },
+      {
+        "id": 14,
+        "label": "Audit Trail",
+        "icon": "ShieldCheck",
+        "route": "/settings/audit-trail",
+        "parent_id": 12,
+        "display_order": 2,
+        "is_active": true,
+        "required_permission": "menu.settings",
+        "module_tag": "core",
+        "is_implemented": true
+      },
+      {
+        "id": 15,
+        "label": "Active Sessions",
+        "icon": "Smartphone",
+        "route": "/settings/sessions",
+        "parent_id": 12,
+        "display_order": 3,
+        "is_active": true,
+        "required_permission": "menu.settings",
+        "module_tag": "core",
+        "is_implemented": true
+      },
+      {
+        "id": 16,
+        "label": "Database Backups",
+        "icon": "Database",
+        "route": "/settings/backups",
+        "parent_id": 12,
+        "display_order": 4,
+        "is_active": true,
+        "required_permission": "menu.settings",
+        "module_tag": "core",
+        "is_implemented": true
+      },
+      {
+        "id": 17,
+        "label": "My Profile",
+        "icon": "User",
+        "route": "/profile",
+        "parent_id": null,
+        "display_order": 10,
+        "is_active": true,
+        "required_permission": "menu.profile",
+        "module_tag": "core",
+        "is_implemented": true
+      },
+      {
+        "id": 18,
+        "label": "Change Password",
+        "icon": "KeyRound",
+        "route": "/change-password",
+        "parent_id": null,
+        "display_order": 11,
+        "is_active": true,
+        "required_permission": "menu.change_password",
+        "module_tag": "core",
+        "is_implemented": true
+      },
+      {
+        "id": 601,
+        "label": "Employee Registration",
+        "icon": "UserCheck",
+        "route": "/workforce/performance/registration",
+        "parent_id": 60,
+        "display_order": 1,
+        "is_active": true,
+        "required_permission": "menu.workforce",
+        "module_tag": "module5",
+        "is_implemented": true
+      }
+    ],
+    "system_settings": {
+      "app_name": {
+        "key": "app_name",
+        "value": "Nexora",
+        "category": "general",
+        "updated_at": "2026-10-18T11:38:19.535Z",
+        "updated_by": "system"
+      },
+      "timezone": {
+        "key": "timezone",
+        "value": "Asia/Kolkata",
+        "category": "general",
+        "updated_at": "2026-10-18T11:38:19.535Z",
+        "updated_by": "system"
+      },
+      "date_format": {
+        "key": "date_format",
+        "value": "YYYY-MM-DD",
+        "category": "display",
+        "updated_at": "2026-10-18T11:38:19.535Z",
+        "updated_by": "system"
+      },
+      "session_timeout_minutes": {
+        "key": "session_timeout_minutes",
+        "value": "15",
+        "category": "security",
+        "updated_at": "2026-10-18T11:38:19.535Z",
+        "updated_by": "system"
+      },
+      "email_notifications_enabled": {
+        "key": "email_notifications_enabled",
+        "value": "false",
+        "category": "notifications",
+        "updated_at": "2026-10-18T11:38:19.535Z",
+        "updated_by": "system"
+      },
+      "audit_retention_days": {
+        "key": "audit_retention_days",
+        "value": "90",
+        "category": "security",
+        "updated_at": "2026-10-18T11:38:19.535Z",
+        "updated_by": "system"
+      }
+    },
+    "suppliers": [
+      {
+        "id": 1,
+        "code": "SUP-0001",
+        "name": "Apex Components Ltd",
+        "category": "",
+        "tax_id": "",
+        "status": "active",
+        "contact_first_name": "Rajesh",
+        "contact_last_name": "Sharma",
+        "email": "rajesh@apexcomp.in",
+        "phone": "+91-9876543210",
+        "alternate_phone": "",
+        "address_line1": "",
+        "address_line2": "",
+        "city": "",
+        "state": "",
+        "postal_code": "",
+        "country": "India",
+        "website": "",
+        "notes": "",
+        "created_by": 1,
+        "created_at": "2026-10-22T20:27:57.636Z",
+        "updated_at": "2026-10-22T20:27:57.636Z"
+      }
+    ],
+    "inventory_items": [
+      {
+        "id": 1,
+        "code": "INV-00001",
+        "name": "STM32 ARM Cortex Microcontroller",
+        "description": "",
+        "category_id": 1,
+        "uom_id": 1,
+        "barcode": "",
+        "min_stock_level": 20,
+        "reorder_quantity": 100,
+        "cost_price": 450,
+        "selling_price": 720,
+        "status": "active",
+        "created_by": 1,
+        "created_at": "2026-10-22T20:27:57.681Z",
+        "updated_at": "2026-10-23T07:57:24.178Z"
+      }
+    ],
+    "inventory_categories": [
+      {
+        "id": 1,
+        "code": "ELEC",
+        "name": "Electronics & Hardware",
+        "description": "Electronic components, sensors, microcontrollers",
+        "is_active": true,
+        "created_at": "2026-10-22T20:26:55.873Z",
+        "updated_at": "2026-10-22T20:26:55.873Z"
+      }
+    ],
+    "warehouses": [
+      {
+        "id": 1,
+        "code": "WH-MAIN",
+        "name": "Main Central Depot",
+        "address": "",
+        "is_active": true,
+        "created_at": "2026-10-22T20:26:55.920Z",
+        "updated_at": "2026-10-22T20:26:55.920Z"
+      }
+    ],
+    "units_of_measure": [
+      {
+        "id": 1,
+        "code": "PCS",
+        "name": "Pieces",
+        "symbol": "pcs",
+        "is_active": true,
+        "created_at": "2026-10-22T20:27:47.129Z"
+      }
+    ],
+    "stock_balances": [
+      {
+        "id": 1,
+        "item_id": 1,
+        "warehouse_id": 1,
+        "quantity": 125,
+        "updated_at": "2026-10-22T20:29:29.057Z"
+      }
+    ],
+    "stock_transactions": [
+      {
+        "id": 1,
+        "transaction_type": "receipt",
+        "reference_no": "INIT-INV-00001",
+        "item_id": 1,
+        "quantity": 5,
+        "destination_warehouse_id": 1,
+        "supplier_id": null,
+        "unit_cost": null,
+        "notes": "Initial opening stock",
+        "transaction_date": "2026-10-22T20:27:57.681Z",
+        "user_id": 1,
+        "created_at": "2026-10-22T20:27:57.681Z"
+      },
+      {
+        "id": 2,
+        "transaction_type": "receipt",
+        "reference_no": "GRN-2026-001",
+        "item_id": 1,
+        "quantity": 120,
+        "destination_warehouse_id": 1,
+        "supplier_id": 1,
+        "unit_cost": 465,
+        "notes": "Full order received in good condition",
+        "transaction_date": "2026-10-22T20:29:29.057Z",
+        "user_id": 1,
+        "created_at": "2026-10-22T20:29:29.057Z"
+      }
+    ],
+    "reorder_requests": [
+      {
+        "id": 1,
+        "reorder_no": "RO-00001",
+        "item_id": 1,
+        "supplier_id": 1,
+        "quantity": 120,
+        "unit_price": 465,
+        "total_amount": 55800,
+        "expected_delivery_date": "2026-11-08",
+        "notes": "Urgent restocking for assembly line 2",
+        "status": "accepted",
+        "supplier_token_hash": "126809ef63da353b48deada865b16d07aef680b1d3f7fc2d2cb670ba3b25efb9",
+        "token_expires_at": "2026-10-25T20:28:08.251Z",
+        "responded_at": "2026-10-22T20:29:04.856Z",
+        "supplier_response_notes": "Raw silicon component costs adjusted. Minimum packaging bundle is 120 units.",
+        "counter_unit_price": 465,
+        "counter_quantity": 120,
+        "counter_delivery_date": "2026-11-08",
+        "rejection_reason": null,
+        "created_by": 1,
+        "created_at": "2026-10-22T20:28:08.251Z",
+        "updated_at": "2026-10-22T20:29:22.316Z"
+      }
+    ],
+    "reorder_negotiations": [
+      {
+        "id": 1,
+        "reorder_id": 1,
+        "actor": "buyer",
+        "action": "REORDER_CREATED",
+        "unit_price": 450,
+        "quantity": 100,
+        "delivery_date": "2026-11-05",
+        "notes": "Urgent restocking for assembly line 2",
+        "timestamp": "2026-10-22T20:28:08.251Z"
+      },
+      {
+        "id": 2,
+        "reorder_id": 1,
+        "actor": "supplier",
+        "action": "SUPPLIER_COUNTEROFFER",
+        "unit_price": 465,
+        "quantity": 120,
+        "delivery_date": "2026-11-08",
+        "notes": "Raw silicon component costs adjusted. Minimum packaging bundle is 120 units.",
+        "timestamp": "2026-10-22T20:29:04.856Z"
+      },
+      {
+        "id": 3,
+        "reorder_id": 1,
+        "actor": "buyer",
+        "action": "BUYER_ACCEPTED_COUNTEROFFER",
+        "unit_price": 465,
+        "quantity": 120,
+        "delivery_date": "2026-11-08",
+        "notes": "Counteroffer accepted. Proceed with production.",
+        "timestamp": "2026-10-22T20:29:22.316Z"
+      }
+    ]
+  }
+}

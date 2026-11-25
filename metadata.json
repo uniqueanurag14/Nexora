@@ -1,0 +1,6 @@
+{
+  "name": "Nexora",
+  "description": "Secure enterprise foundation and authentication platform with PostgreSQL persistence, JWT security, and role-based access control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

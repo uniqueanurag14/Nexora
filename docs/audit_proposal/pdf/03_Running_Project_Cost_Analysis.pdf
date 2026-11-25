@@ -1,0 +1,348 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 12270 >>
+stream
+0.063 0.106 0.196 rg
+0.00 729.89 595.28 112.00 re f
+0.000 0.518 0.800 rg
+0.00 725.89 595.28 4.00 re f
+BT 0.550 0.820 0.980 rg /F2 8.5 Tf 44.00 807.89 Td (NEXORA ERP  |  DOC-03 | COST & PROFITABILITY  |  NOVEMBER 20, 2026) Tj ET
+BT 1.000 1.000 1.000 rg /F2 17.5 Tf 44.00 783.89 Td (03. Running Project Cost & Profitability Analysis) Tj ET
+BT 0.820 0.880 0.950 rg /F1 9.5 Tf 44.00 760.89 Td (Historical Investment Ledger \(Pending Verified Inputs\), Monthly OpEx Budget & Internal Margin Model) Tj ET
+0.955 0.968 0.985 rg
+0.60 w 0.820 0.860 0.910 RG
+44.00 655.89 120.82 52.00 re B
+0.000 0.518 0.800 rg
+44.00 704.89 120.82 3.00 re f
+BT 0.420 0.470 0.540 rg /F2 7.5 Tf 52.00 691.89 Td (HISTORICAL ACTUALS) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.5 Tf 52.00 675.89 Td (Rs. 0 \(PENDING\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.2 Tf 52.00 663.89 Td (No invented spend; awaiting vo) Tj ET
+0.955 0.968 0.985 rg
+0.60 w 0.820 0.860 0.910 RG
+172.82 655.89 120.82 52.00 re B
+0.000 0.518 0.800 rg
+172.82 704.89 120.82 3.00 re f
+BT 0.420 0.470 0.540 rg /F2 7.5 Tf 180.82 691.89 Td (BENCHMARK OPEX) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.5 Tf 180.82 675.89 Td (Rs. 60,000 / Mo) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.2 Tf 180.82 663.89 Td (Rs. 7,20,000 / Yr \(100-500 Use) Tj ET
+0.955 0.968 0.985 rg
+0.60 w 0.820 0.860 0.910 RG
+301.64 655.89 120.82 52.00 re B
+0.000 0.518 0.800 rg
+301.64 704.89 120.82 3.00 re f
+BT 0.420 0.470 0.540 rg /F2 7.5 Tf 309.64 691.89 Td (OPTION B GROSS PROFIT) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.5 Tf 309.64 675.89 Td (Rs. 13,26,700) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.2 Tf 309.64 663.89 Td (47.4% Gross Margin \(Build Only) Tj ET
+0.955 0.968 0.985 rg
+0.60 w 0.820 0.860 0.910 RG
+430.46 655.89 120.82 52.00 re B
+0.000 0.518 0.800 rg
+430.46 704.89 120.82 3.00 re f
+BT 0.420 0.470 0.540 rg /F2 7.5 Tf 438.46 691.89 Td (COST MODULE BUILD) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.5 Tf 438.46 675.89 Td (Rs. 1,50,800) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.2 Tf 438.46 663.89 Td (COST-01: 106 Hrs \(Excl. GST\)) Tj ET
+0.996 0.960 0.935 rg
+0.50 w 0.820 0.860 0.910 RG
+44.00 564.69 507.28 77.20 re B
+0.850 0.360 0.120 rg
+44.00 564.69 4.00 77.20 re f
+BT 0.850 0.360 0.120 rg /F2 9.2 Tf 55.00 626.89 Td (STRICT AUDIT INTEGRITY NOTICE  -  ZERO INVENTED HISTORICAL EXPENSES) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.5 Tf 55.00 613.89 Td (Because historical invoices, developer payroll vouchers, and prior cloud bills are not stored inside the) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.5 Tf 55.00 602.09 Td (source repository, all 13 historical expense categories \(HIST-01 to HIST-13\) are intentionally set to Rs. 0) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.5 Tf 55.00 590.29 Td (\(PENDING INPUT\) in both this report and Sheet 5 of the Excel Workbook. Once Finance enters verified amounts,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.5 Tf 55.00 578.49 Td (break-even and cumulative ROI recalculate live.) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.0 Tf 44.00 548.69 Td (1. Running Project Historical Cost Ledger \(13 Categories  -  Pending Finance Input\)) Tj ET
+1.10 w 0.000 0.518 0.800 RG 44.00 544.19 m 551.28 544.19 l S
+0.063 0.106 0.196 rg
+44.00 499.89 507.28 30.80 re f
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 48.50 518.89 Td (ID) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 114.45 518.89 Td (Historical Investment Category) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 302.14 518.89 Td (Actual To Date) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 373.16 518.89 Td (Status) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 444.18 518.89 Td (Scope / Verification) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 444.18 508.49 Td (Source) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 460.69 507.28 39.20 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 488.59 Td (HIST-01..03) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 114.45 488.59 Td (Core Platform, Inventory/Warehouse & Live) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 114.45 478.19 Td (Performance Dev) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 302.14 488.59 Td (Rs. 0) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 488.59 Td (PENDING INPUT) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 444.18 488.59 Td (Verify prior) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 444.18 478.19 Td (payroll/timesheets \(~44K) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 444.18 467.79 Td (LOC\)) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 431.89 507.28 28.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 449.39 Td (HIST-04..05) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 114.45 449.39 Td (Historical QA Cycles, PM Coordination &) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 114.45 438.99 Td (Discovery) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 302.14 449.39 Td (Rs. 0) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 449.39 Td (PENDING INPUT) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 444.18 449.39 Td (Prior release testing &) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 444.18 438.99 Td (workshops) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 403.09 507.28 28.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 420.59 Td (HIST-06..08) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 114.45 420.59 Td (Cloud/VPS Hosting, Domains/SSL & SMTP Relay) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 114.45 410.19 Td (To Date) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 302.14 420.59 Td (Rs. 0) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 420.59 Td (PENDING INPUT) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 444.18 420.59 Td (Cumulative cloud &) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 444.18 410.19 Td (registrar invoices) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 374.29 507.28 28.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 391.79 Td (HIST-09..10) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 114.45 391.79 Td (Software Licenses \(Git/IDE/Design\) &) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 114.45 381.39 Td (Hardware Amortization) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 302.14 391.79 Td (Rs. 0) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 391.79 Td (PENDING INPUT) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 444.18 391.79 Td (Pro-rata tool & laptop) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 444.18 381.39 Td (depreciation) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 345.49 507.28 28.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 362.99 Td (HIST-11..13) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 114.45 362.99 Td (External Advisors, Sales/Demo Travel & Admin) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 114.45 352.59 Td (Overheads) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 302.14 362.99 Td (Rs. 0) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 373.16 362.99 Td (PENDING INPUT) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 444.18 362.99 Td (Approved finance vouchers) Tj ET
+0.890 0.935 0.980 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 316.69 507.28 28.80 re B
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 48.50 334.19 Td (TOTAL) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 114.45 334.19 Td (TOTAL HISTORICAL SUNK INVESTMENT TO DATE) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 302.14 334.19 Td (Rs. 0) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 373.16 334.19 Td (EDIT SHEET 5) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 444.18 334.19 Td (Auto-links to Project) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 444.18 323.79 Td (Profitability!B11) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.0 Tf 44.00 300.69 Td (2. Benchmark Monthly Recurring Operating Expenses \(100-500 Active Users\)) Tj ET
+1.10 w 0.000 0.518 0.800 RG 44.00 296.19 m 551.28 296.19 l S
+0.063 0.106 0.196 rg
+44.00 262.29 507.28 20.40 re f
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 48.50 270.89 Td (ID) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 104.30 270.89 Td (Operating Expense Line Item) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 322.43 270.89 Td (Monthly \(INR\)) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 393.45 270.89 Td (Annual \(INR\)) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 464.47 270.89 Td (Default Payer) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 233.49 507.28 28.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 250.99 Td (OPEX-01) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 104.30 250.99 Td (Production App Server \(4 vCPU / 8GB Managed Cloud\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 322.43 250.99 Td (Rs. 12,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 393.45 250.99 Td (Rs. 1,44,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 250.99 Td (Client \(Pass-) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 240.59 Td (through\)) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 204.69 507.28 28.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 222.19 Td (OPEX-02) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 104.30 222.19 Td (Managed PostgreSQL DB + Daily Automated Backups) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 322.43 222.19 Td (Rs. 10,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 393.45 222.19 Td (Rs. 1,20,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 222.19 Td (Client \(Pass-) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 211.79 Td (through\)) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 186.29 507.28 18.40 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 193.39 Td (OPEX-03) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 104.30 193.39 Td (Staging / UAT Environment \(App + DB\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 322.43 193.39 Td (Rs. 5,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 393.45 193.39 Td (Rs. 60,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 193.39 Td (Vendor / Shared) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 157.49 507.28 28.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 174.99 Td (OPEX-04) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 104.30 174.99 Td (Encrypted Object Storage \(Payslips, KYC Docs,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 104.30 164.59 Td (Avatars\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 322.43 174.99 Td (Rs. 2,500) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 393.45 174.99 Td (Rs. 30,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 174.99 Td (Client \(Pass-) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 164.59 Td (through\)) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 128.69 507.28 28.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 146.19 Td (OPEX-05) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 104.30 146.19 Td (Transactional Email / SMTP Gateway) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 322.43 146.19 Td (Rs. 2,500) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 393.45 146.19 Td (Rs. 30,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 146.19 Td (Client \(Pass-) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 135.79 Td (through\)) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 99.89 507.28 28.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 117.39 Td (OPEX-06) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 104.30 117.39 Td (SSL, Domain, Cloudflare WAF & DDoS Protection) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 322.43 117.39 Td (Rs. 3,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 393.45 117.39 Td (Rs. 36,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 117.39 Td (Client \(Pass-) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 106.99 Td (through\)) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 81.49 507.28 18.40 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 88.59 Td (OPEX-07) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 104.30 88.59 Td (Monitoring, Uptime Alerts & Error Telemetry) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 322.43 88.59 Td (Rs. 4,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 393.45 88.59 Td (Rs. 48,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 88.59 Td (Vendor \(SLA Ops\)) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 63.09 507.28 18.40 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 70.19 Td (OPEX-08) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 104.30 70.19 Td (CI/CD, Git Repository & Security Tooling) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 322.43 70.19 Td (Rs. 4,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 393.45 70.19 Td (Rs. 48,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 70.19 Td (Vendor Overhead) Tj ET
+0.60 w 0.820 0.860 0.910 RG 44.00 34.00 m 551.28 34.00 l S
+BT 0.420 0.470 0.540 rg /F1 7.6 Tf 44.00 22.00 Td (NEXORA ERP - Confidential Audit, Costing & Indian HRMS Documentation) Tj ET
+BT 0.420 0.470 0.540 rg /F2 7.6 Tf 499.28 22.00 Td (Page 1 of 2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 6552 >>
+stream
+1.00 w 0.000 0.518 0.800 RG 44.00 805.89 m 551.28 805.89 l S
+BT 0.063 0.106 0.196 rg /F2 8.0 Tf 44.00 811.89 Td (NEXORA ERP  |  03. Running Project Cost & Profitability Analysis) Tj ET
+BT 0.420 0.470 0.540 rg /F1 8.0 Tf 456.28 811.89 Td (Prepared: Nov 20, 2026) Tj ET
+0.063 0.106 0.196 rg
+44.00 767.49 507.28 20.40 re f
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 48.50 776.09 Td (ID) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 104.30 776.09 Td (Operating Expense Line Item) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 322.43 776.09 Td (Monthly \(INR\)) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 393.45 776.09 Td (Annual \(INR\)) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 464.47 776.09 Td (Default Payer) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 749.09 507.28 18.40 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 756.19 Td (OPEX-09) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 104.30 756.19 Td (Optional SMS / WhatsApp Notification Credits) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 322.43 756.19 Td (Rs. 5,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 393.45 756.19 Td (Rs. 60,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 756.19 Td (Client Direct) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 730.69 507.28 18.40 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 737.79 Td (OPEX-10) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 104.30 737.79 Td (Allocated Office, Broadband & Admin Overhead) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 322.43 737.79 Td (Rs. 12,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 393.45 737.79 Td (Rs. 1,44,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 464.47 737.79 Td (Vendor Overhead) Tj ET
+0.890 0.935 0.980 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 701.89 507.28 28.80 re B
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 48.50 719.39 Td (TOTAL) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 104.30 719.39 Td (TOTAL BENCHMARK MONTHLY & ANNUAL OPEX) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 322.43 719.39 Td (Rs. 60,000) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 393.45 719.39 Td (Rs. 7,20,000) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 464.47 719.39 Td (65% Client / 35%) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 464.47 708.99 Td (Vendor) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.0 Tf 44.00 685.89 Td (3. Internal Profitability Analysis \(Option B Recommended Build + Year 1 AMC\)) Tj ET
+1.10 w 0.000 0.518 0.800 RG 44.00 681.39 m 551.28 681.39 l S
+BT 0.180 0.230 0.300 rg /F1 9.0 Tf 44.00 667.89 Td (Internal delivery cost is modeled separately from client billing rates using realistic Indian loaded hourly) Tj ET
+BT 0.180 0.230 0.300 rg /F1 9.0 Tf 44.00 655.29 Td (costs: Senior Dev/Lead Rs. 950/hr, QA Engineer Rs. 450/hr, Coordinator Rs. 450/hr, Sales Rs. 400/hr \(editable) Tj ET
+BT 0.180 0.230 0.300 rg /F1 9.0 Tf 44.00 642.69 Td (on Sheet 18\).) Tj ET
+0.063 0.106 0.196 rg
+44.00 605.69 507.28 20.40 re f
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 48.50 614.29 Td (Profitability Metric \(Excl. GST\)) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 220.98 614.29 Td (Option B Build Only) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 317.36 614.29 Td (Build + Year 1 AMC) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.8 Tf 413.74 614.29 Td (Basis / Formula) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 576.89 507.28 28.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 594.39 Td (Contract Revenue \(Excl. GST\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 220.98 594.39 Td (Rs. 27,96,800) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 317.36 594.39 Td (Rs. 31,76,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 413.74 594.39 Td (Option B \(Rs. 27.97L\) + AMC \(Rs.) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 413.74 583.99 Td (3.79L\)) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 548.09 507.28 28.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 565.59 Td (Direct Internal Delivery Labor Cost) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 220.98 565.59 Td (Rs. 14,70,100) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 317.36 565.59 Td (Rs. 16,70,500) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 413.74 565.59 Td (Hours x Internal Loaded Cost) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 413.74 555.19 Td (Rates) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 529.69 507.28 18.40 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 536.79 Td (GROSS PROFIT \(Contribution\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 220.98 536.79 Td (Rs. 13,26,700) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 317.36 536.79 Td (Rs. 15,05,500) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 413.74 536.79 Td (Revenue minus Direct Labor) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 511.29 507.28 18.40 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 518.39 Td (GROSS MARGIN \(%\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 220.98 518.39 Td (47.4%) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 317.36 518.39 Td (47.4%) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 413.74 518.39 Td (Healthy target band: 45% - 52%) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 492.89 507.28 18.40 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 499.99 Td (Vendor Share of OpEx \(35% x Rs. 60K/mo\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 220.98 499.99 Td (Rs. 2,20,500) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 317.36 499.99 Td (Rs. 4,72,500) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 413.74 499.99 Td (10.5 Mo Build / 22.5 Mo Combined) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 464.09 507.28 28.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 48.50 481.59 Td (Historical Sunk Investment \(Sheet 5\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 220.98 481.59 Td (Rs. 0 \(PENDING\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 317.36 481.59 Td (Rs. 0 \(PENDING\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 413.74 481.59 Td (Auto-deducts once Finance) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.8 Tf 413.74 471.19 Td (populates Sheet 5) Tj ET
+0.890 0.935 0.980 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 435.29 507.28 28.80 re B
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 48.50 452.79 Td (NET OPERATING PROFIT) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 220.98 452.79 Td (Rs. 11,06,200) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 317.36 452.79 Td (Rs. 10,33,000) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 413.74 452.79 Td (39.6% Net Margin \(Build\) / 32.5%) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.8 Tf 413.74 442.39 Td (\(Combined\)) Tj ET
+0.60 w 0.820 0.860 0.910 RG 44.00 34.00 m 551.28 34.00 l S
+BT 0.420 0.470 0.540 rg /F1 7.6 Tf 44.00 22.00 Td (NEXORA ERP - Confidential Audit, Costing & Indian HRMS Documentation) Tj ET
+BT 0.420 0.470 0.540 rg /F2 7.6 Tf 499.28 22.00 Td (Page 2 of 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000224 00000 n 
+0000000326 00000 n 
+0000000468 00000 n 
+0000012791 00000 n 
+0000012933 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+19537
+%%EOF

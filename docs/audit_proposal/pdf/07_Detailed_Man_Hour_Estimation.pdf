@@ -1,0 +1,484 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 18053 >>
+stream
+0.063 0.106 0.196 rg
+0.00 729.89 595.28 112.00 re f
+0.000 0.518 0.800 rg
+0.00 725.89 595.28 4.00 re f
+BT 0.550 0.820 0.980 rg /F2 8.5 Tf 44.00 807.89 Td (NEXORA ERP  |  DOC-07 | MAN-HOUR ESTIMATION  |  NOVEMBER 20, 2026) Tj ET
+BT 1.000 1.000 1.000 rg /F2 17.5 Tf 44.00 783.89 Td (07. Detailed Man-Hour & Cost Estimation) Tj ET
+BT 0.820 0.880 0.950 rg /F1 9.5 Tf 44.00 760.89 Td (Zero-Overlap 3-Person Team Effort Model \(Dev/Lead, QA/Coordinator, Sales\) Across 20 Core Modules + Add-) Tj ET
+BT 0.820 0.880 0.950 rg /F1 9.5 Tf 44.00 748.89 Td (ons) Tj ET
+0.955 0.968 0.985 rg
+0.60 w 0.820 0.860 0.910 RG
+44.00 655.89 120.82 52.00 re B
+0.000 0.518 0.800 rg
+44.00 704.89 120.82 3.00 re f
+BT 0.420 0.470 0.540 rg /F2 7.5 Tf 52.00 691.89 Td (SENIOR DEV / LEAD) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.5 Tf 52.00 675.89 Td (1,180 Hours) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.2 Tf 52.00 663.89 Td (Rs. 1,800/hr = Rs. 21,24,000) Tj ET
+0.955 0.968 0.985 rg
+0.60 w 0.820 0.860 0.910 RG
+172.82 655.89 120.82 52.00 re B
+0.000 0.518 0.800 rg
+172.82 704.89 120.82 3.00 re f
+BT 0.420 0.470 0.540 rg /F2 7.5 Tf 180.82 691.89 Td (QA ENGINEER \(HAT 1\)) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.5 Tf 180.82 675.89 Td (530 Hours) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.2 Tf 180.82 663.89 Td (Rs. 900/hr = Rs. 4,77,000) Tj ET
+0.955 0.968 0.985 rg
+0.60 w 0.820 0.860 0.910 RG
+301.64 655.89 120.82 52.00 re B
+0.000 0.518 0.800 rg
+301.64 704.89 120.82 3.00 re f
+BT 0.420 0.470 0.540 rg /F2 7.5 Tf 309.64 691.89 Td (COORDINATOR \(HAT 2\)) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.5 Tf 309.64 675.89 Td (180 Hours) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.2 Tf 309.64 663.89 Td (Rs. 800/hr = Rs. 1,44,000) Tj ET
+0.955 0.968 0.985 rg
+0.60 w 0.820 0.860 0.910 RG
+430.46 655.89 120.82 52.00 re B
+0.000 0.518 0.800 rg
+430.46 704.89 120.82 3.00 re f
+BT 0.420 0.470 0.540 rg /F2 7.5 Tf 438.46 691.89 Td (SALES PERSON) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.5 Tf 438.46 675.89 Td (74 Hours) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.2 Tf 438.46 663.89 Td (Rs. 700/hr = Rs. 51,800) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.0 Tf 44.00 635.89 Td (1. Team Capacity & Strict Anti-Double-Counting Governance) Tj ET
+1.10 w 0.000 0.518 0.800 RG 44.00 631.39 m 551.28 631.39 l S
+0.000 0.518 0.800 rg
+46.00 620.09 3.50 3.50 re f
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 617.89 Td (Resource 1 - Senior Developer / Technical Lead \(Rs. 1,800/hr\): Handles Architecture, Backend, Frontend,) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 605.69 Td (Statutory Calculations, Migrations, and Tech Lead PR reviews. Tech Lead hours are tracked as a separate non-) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 593.49 Td (overlapping slice.) Tj ET
+0.000 0.518 0.800 rg
+46.00 581.49 3.50 3.50 re f
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 579.29 Td (Resource 2 - QA Engineer \(Rs. 900/hr\) / Project Coordinator \(Rs. 800/hr\): Dual-hatted individual whose QA) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 567.09 Td (testing hours and Project Coordination hours are strictly partitioned across separate ledgers with ZERO) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 554.89 Td (double counting.) Tj ET
+0.000 0.518 0.800 rg
+46.00 542.89 3.50 3.50 re f
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 540.69 Td (Resource 3 - Sales Person \(Rs. 700/hr\): Commercial scope reviews, executive demos, and milestone sign-offs) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 528.49 Td (only; ZERO Developer or QA hours assigned.) Tj ET
+0.000 0.518 0.800 rg
+46.00 516.49 3.50 3.50 re f
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 514.29 Td (Realistic Single-Developer Velocity: 1,180 Dev hours at ~27 productive build hours/week \(accounting for PR) Tj ET
+BT 0.180 0.230 0.300 rg /F1 8.8 Tf 56.00 502.09 Td (reviews, UAT fixes, holidays, and buffer\) yields a realistic 44-week \(~10.5-month\) delivery timeline.) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.0 Tf 44.00 478.89 Td (2. Complete Module-Wise Man-Hour & Cost Breakdown \(Option B  -  20 Modules\)) Tj ET
+1.10 w 0.000 0.518 0.800 RG 44.00 474.39 m 551.28 474.39 l S
+0.063 0.106 0.196 rg
+44.00 440.99 507.28 19.90 re f
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 48.50 449.59 Td (Code) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 94.16 449.59 Td (Module Name) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 291.99 449.59 Td (Dev) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 322.43 449.59 Td (QA) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 352.87 449.59 Td (Coord) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 388.38 449.59 Td (Sales) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 418.81 449.59 Td (Total) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 454.32 449.59 Td (Cost Excl. GST) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 525.34 449.59 Td (Conf.) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 423.09 507.28 17.90 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 430.19 Td (RPT-01) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 430.19 Td (Critical Security, SQLi, RBAC & Lint Remediation) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 430.19 Td (58) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 430.19 Td (28) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 430.19 Td (8) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 430.19 Td (4) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 430.19 Td (98) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 430.19 Td (Rs. 1,38,800) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 430.19 Td (High) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 395.29 507.28 27.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 412.29 Td (RPT-02) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 412.29 Td (Inventory Reports & Valuation Tab) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 402.39 Td (\(/inventory/reports\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 412.29 Td (44) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 412.29 Td (20) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 412.29 Td (7) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 412.29 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 412.29 Td (74) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 412.29 Td (Rs. 1,04,900) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 412.29 Td (High) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 367.49 507.28 27.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 384.49 Td (RPT-03) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 384.49 Td (Performance Dept-Filter Fix & Branded PDF/XLSX) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 374.59 Td (Export) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 384.49 Td (40) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 384.49 Td (19) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 384.49 Td (7) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 384.49 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 384.49 Td (69) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 384.49 Td (Rs. 96,800) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 384.49 Td (High) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 349.59 507.28 17.90 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 356.69 Td (RPT-04) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 356.69 Td (Unified Reporting & Analytics Hub \(/reports\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 356.69 Td (46) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 356.69 Td (19) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 356.69 Td (8) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 356.69 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 356.69 Td (76) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 356.69 Td (Rs. 1,08,400) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 356.69 Td (High) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 331.69 507.28 17.90 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 338.79 Td (RPT-05) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 338.79 Td (Scheduled Email Reports & Audit Trail Exports) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 338.79 Td (22) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 338.79 Td (12) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 338.79 Td (4) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 338.79 Td (1) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 338.79 Td (39) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 338.79 Td (Rs. 54,300) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 338.79 Td (High) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 313.79 507.28 17.90 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 320.89 Td (COST-01) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 320.89 Td (Running Project Cost Ledger, OpEx & Profitability) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 320.89 Td (64) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 320.89 Td (26) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 320.89 Td (10) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 320.89 Td (6) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 320.89 Td (106) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 320.89 Td (Rs. 1,50,800) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 320.89 Td (High) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 295.89 507.28 17.90 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 302.99 Td (HRMS-01) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 302.99 Td (Employee Master, Org Hierarchy & Document Vault) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 302.99 Td (78) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 302.99 Td (32) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 302.99 Td (10) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 302.99 Td (4) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 302.99 Td (124) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 302.99 Td (Rs. 1,80,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 302.99 Td (High) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 268.09 507.28 27.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 285.09 Td (HRMS-02) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 285.09 Td (Attendance, Shift Rosters, Biometric Sync &) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 275.19 Td (Overtime) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 285.09 Td (82) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 285.09 Td (34) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 285.09 Td (10) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 285.09 Td (4) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 285.09 Td (130) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 285.09 Td (Rs. 1,89,000) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 285.09 Td (Med) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 240.29 507.28 27.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 257.29 Td (HRMS-03) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 257.29 Td (Leave Management, Accrual Rules & Holiday) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 247.39 Td (Calendars) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 257.29 Td (56) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 257.29 Td (24) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 257.29 Td (8) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 257.29 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 257.29 Td (91) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 257.29 Td (Rs. 1,30,900) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 257.29 Td (High) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 212.49 507.28 27.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 229.49 Td (HRMS-04) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 229.49 Td (Salary Structure & CTC Builder \(50% Wage) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 219.59 Td (Guardrail\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 229.49 Td (68) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 229.49 Td (28) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 229.49 Td (10) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 229.49 Td (4) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 229.49 Td (110) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 229.49 Td (Rs. 1,58,400) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 229.49 Td (High) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 194.59 507.28 17.90 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 201.69 Td (HRMS-05) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 201.69 Td (Monthly Payroll Engine, Arrears, Loans & Bank NEFT) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 201.69 Td (98) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 201.69 Td (42) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 201.69 Td (13) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 201.69 Td (4) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 201.69 Td (157) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 201.69 Td (Rs. 2,27,400) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 201.69 Td (Med) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 176.69 507.28 17.90 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 183.79 Td (HRMS-06) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 183.79 Td (Payslip PDF Generator, SMTP Dispatch & ESS Portal) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 183.79 Td (62) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 183.79 Td (25) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 183.79 Td (8) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 183.79 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 183.79 Td (98) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 183.79 Td (Rs. 1,42,600) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 183.79 Td (High) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 148.89 507.28 27.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 165.89 Td (HRMS-07) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 165.89 Td (Recruitment ATS, Offer Letters & 1-Click) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 155.99 Td (Onboarding) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 165.89 Td (42) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 165.89 Td (18) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 165.89 Td (7) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 165.89 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 165.89 Td (70) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 165.89 Td (Rs. 99,500) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 165.89 Td (High) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 121.09 507.28 27.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 138.09 Td (HRMS-08) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 138.09 Td (Appraisals, KRA/KPI Reviews & Exit / F&F) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 128.19 Td (Settlement) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 138.09 Td (54) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 138.09 Td (23) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 138.09 Td (8) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 138.09 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 138.09 Td (88) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 138.09 Td (Rs. 1,26,400) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 138.09 Td (Med) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 103.19 507.28 17.90 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 110.29 Td (HRMS-09) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 110.29 Td (HRMS Master Reports, Salary Registers & GL Export) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 110.29 Td (44) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 110.29 Td (18) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 110.29 Td (6) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 110.29 Td (2) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 110.29 Td (70) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 110.29 Td (Rs. 1,01,600) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 110.29 Td (High) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 85.29 507.28 17.90 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 92.39 Td (STAT-01) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 92.39 Td (EPFO Engine \(Rs. 25K Ceiling, PF/EPS/EDLI & ECR\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 92.39 Td (74) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 92.39 Td (35) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 92.39 Td (10) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 92.39 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 92.39 Td (122) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 92.39 Td (Rs. 1,74,800) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 92.39 Td (Med) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 67.39 507.28 17.90 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 74.49 Td (STAT-02) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 74.49 Td (ESIC Engine \(0.75%/3.25%, Rs. 21K/25K & Return\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 74.49 Td (54) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 74.49 Td (24) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 74.49 Td (8) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 74.49 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 74.49 Td (89) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 74.49 Td (Rs. 1,27,300) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 74.49 Td (High) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 49.49 507.28 17.90 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 56.59 Td (STAT-03) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 56.59 Td (Income Tax TDS \(FY25-27 New/Old, Form 16 & 24Q\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 56.59 Td (80) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 56.59 Td (36) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 56.59 Td (10) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 56.59 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 56.59 Td (129) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 56.59 Td (Rs. 1,86,500) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 56.59 Td (Med) Tj ET
+0.60 w 0.820 0.860 0.910 RG 44.00 34.00 m 551.28 34.00 l S
+BT 0.420 0.470 0.540 rg /F1 7.6 Tf 44.00 22.00 Td (NEXORA ERP - Confidential Audit, Costing & Indian HRMS Documentation) Tj ET
+BT 0.420 0.470 0.540 rg /F2 7.6 Tf 499.28 22.00 Td (Page 1 of 2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 8492 >>
+stream
+1.00 w 0.000 0.518 0.800 RG 44.00 805.89 m 551.28 805.89 l S
+BT 0.063 0.106 0.196 rg /F2 8.0 Tf 44.00 811.89 Td (NEXORA ERP  |  07. Detailed Man-Hour & Cost Estimation) Tj ET
+BT 0.420 0.470 0.540 rg /F1 8.0 Tf 456.28 811.89 Td (Prepared: Nov 20, 2026) Tj ET
+0.063 0.106 0.196 rg
+44.00 767.99 507.28 19.90 re f
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 48.50 776.59 Td (Code) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 94.16 776.59 Td (Module Name) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 291.99 776.59 Td (Dev) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 322.43 776.59 Td (QA) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 352.87 776.59 Td (Coord) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 388.38 776.59 Td (Sales) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 418.81 776.59 Td (Total) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 454.32 776.59 Td (Cost Excl. GST) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.3 Tf 525.34 776.59 Td (Conf.) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 750.09 507.28 17.90 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 757.19 Td (STAT-04) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 757.19 Td (Multi-State PT/LWF \(UP Nil\), Gratuity, Bonus & Reg) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 757.19 Td (48) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 757.19 Td (21) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 757.19 Td (6) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 757.19 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 757.19 Td (78) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 757.19 Td (Rs. 1,12,200) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 757.19 Td (Med) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 722.29 507.28 27.80 re B
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 48.50 739.29 Td (DEP-01) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 739.29 Td (PostgreSQL Unification, E2E UAT, Training &) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 94.16 729.39 Td (Rollout) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 291.99 739.29 Td (66) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 322.43 739.29 Td (46) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 352.87 739.29 Td (22) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 388.38 739.29 Td (12) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 418.81 739.29 Td (146) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 454.32 739.29 Td (Rs. 1,86,200) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.3 Tf 525.34 739.29 Td (Med) Tj ET
+0.890 0.935 0.980 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 694.49 507.28 27.80 re B
+BT 0.063 0.106 0.196 rg /F2 7.3 Tf 48.50 711.49 Td (TOTAL-B) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.3 Tf 94.16 711.49 Td (GRAND TOTAL  -  OPTION B COMPLETE BUILD \(20) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.3 Tf 94.16 701.59 Td (MODULES\)) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.3 Tf 291.99 711.49 Td (1,180) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.3 Tf 322.43 711.49 Td (530) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.3 Tf 352.87 711.49 Td (180) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.3 Tf 388.38 711.49 Td (74) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.3 Tf 418.81 711.49 Td (1,964) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.3 Tf 454.32 711.49 Td (Rs. 27,96,800) Tj ET
+BT 0.063 0.106 0.196 rg /F2 7.3 Tf 525.34 711.49 Td (High) Tj ET
+BT 0.063 0.106 0.196 rg /F2 12.0 Tf 44.00 678.49 Td (3. Option C Add-Ons \(4 Modules\) & Optional Annual Maintenance Retainer) Tj ET
+1.10 w 0.000 0.518 0.800 RG 44.00 673.99 m 551.28 673.99 l S
+0.063 0.106 0.196 rg
+44.00 640.39 507.28 20.10 re f
+BT 1.000 1.000 1.000 rg /F2 7.5 Tf 48.50 648.99 Td (Code) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.5 Tf 99.23 648.99 Td (Add-On / Retainer Scope) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.5 Tf 322.43 648.99 Td (Dev) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.5 Tf 352.87 648.99 Td (QA) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.5 Tf 383.30 648.99 Td (Coord) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.5 Tf 418.81 648.99 Td (Sales) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.5 Tf 449.25 648.99 Td (Total) Tj ET
+BT 1.000 1.000 1.000 rg /F2 7.5 Tf 484.76 648.99 Td (Cost Excl. GST) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 612.19 507.28 28.20 re B
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 48.50 629.39 Td (PRM-01) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 99.23 629.39 Td (Mobile ESS PWA, Geo-Fenced Punch-In & WhatsApp/SMS) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 99.23 619.29 Td (Alerts) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 322.43 629.39 Td (68) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 352.87 629.39 Td (35) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 383.30 629.39 Td (13) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 418.81 629.39 Td (5) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 449.25 629.39 Td (121) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 484.76 629.39 Td (Rs. 1,67,800) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 583.99 507.28 28.20 re B
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 48.50 601.19 Td (PRM-02) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 99.23 601.19 Td (Automated Tally / Zoho Books Payroll & Inventory GL) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 99.23 591.09 Td (Connector) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 322.43 601.19 Td (52) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 352.87 601.19 Td (25) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 383.30 601.19 Td (10) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 418.81 601.19 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 449.25 601.19 Td (90) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 484.76 601.19 Td (Rs. 1,26,200) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 555.79 507.28 28.20 re B
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 48.50 572.99 Td (PRM-03) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 99.23 572.99 Td (Multi-Branch / Multi-Entity Consolidated BI & Board) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 99.23 562.89 Td (Pack) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 322.43 572.99 Td (46) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 352.87 572.99 Td (21) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 383.30 572.99 Td (9) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 418.81 572.99 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 449.25 572.99 Td (79) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 484.76 572.99 Td (Rs. 1,11,000) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 527.59 507.28 28.20 re B
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 48.50 544.79 Td (PRM-04) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 99.23 544.79 Td (Zero-Downtime HA Setup, Automated PG Backups & DR) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 99.23 534.69 Td (Drills) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 322.43 544.79 Td (18) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 352.87 544.79 Td (9) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 383.30 544.79 Td (6) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 418.81 544.79 Td (3) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 449.25 544.79 Td (36) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 484.76 544.79 Td (Rs. 47,400) Tj ET
+1.000 1.000 1.000 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 499.39 507.28 28.20 re B
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 48.50 516.59 Td (PRM-SUB) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 99.23 516.59 Td (SUBTOTAL  -  4 PREMIUM ADD-ONS \(Before 10% Option C) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 99.23 506.49 Td (Buffer\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 322.43 516.59 Td (184) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 352.87 516.59 Td (90) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 383.30 516.59 Td (38) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 418.81 516.59 Td (14) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 449.25 516.59 Td (326) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 484.76 516.59 Td (Rs. 4,52,400) Tj ET
+0.968 0.976 0.988 rg
+0.35 w 0.820 0.860 0.910 RG
+44.00 471.19 507.28 28.20 re B
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 48.50 488.39 Td (MNT-01) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 99.23 488.39 Td (Optional Annual Maintenance Retainer \(12 Months SLA  -) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 99.23 478.29 Td (Separate\)) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 322.43 488.39 Td (144) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 352.87 488.39 Td (72) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 383.30 488.39 Td (48) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 418.81 488.39 Td (24) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 449.25 488.39 Td (288) Tj ET
+BT 0.180 0.230 0.300 rg /F1 7.5 Tf 484.76 488.39 Td (Rs. 3,79,200) Tj ET
+0.60 w 0.820 0.860 0.910 RG 44.00 34.00 m 551.28 34.00 l S
+BT 0.420 0.470 0.540 rg /F1 7.6 Tf 44.00 22.00 Td (NEXORA ERP - Confidential Audit, Costing & Indian HRMS Documentation) Tj ET
+BT 0.420 0.470 0.540 rg /F2 7.6 Tf 499.28 22.00 Td (Page 2 of 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000224 00000 n 
+0000000326 00000 n 
+0000000468 00000 n 
+0000018574 00000 n 
+0000018716 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+27260
+%%EOF

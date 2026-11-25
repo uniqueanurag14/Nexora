@@ -1,0 +1,982 @@
+# NEXORA – Fix Performance Roster API, Implement Role-Based Dashboard & Visual Analytics
+
+## 1. PROJECT OBJECTIVE
+
+We need to fix an existing API error and improve the NEXORA dashboard to provide a complete, professional, role-based manufacturing management experience.
+
+The implementation must cover:
+
+1. Performance Roster API debugging and correction.
+2. Dynamic dashboard based on logged-in user roles and permissions.
+3. Dashboard notifications.
+4. KPI cards and business statistics.
+5. Interactive graphs and charts.
+6. Employee performance analytics.
+7. Production reports and visual analytics.
+8. Production forecasting visualisation.
+9. Product readiness and work-in-progress visualisation.
+10. Role-based data access and reporting.
+
+This is an existing application. Extend the current implementation rather than rebuilding it.
+
+---
+
+# 2. EXISTING API ERROR – MUST FIX FIRST
+
+The following API currently returns an error:
+
+**Request URL:**
+`http://localhost:3000/api/performance/roster`
+
+**Request Method:**
+`POST`
+
+**Response Status:**
+`500 Internal Server Error`
+
+### First, audit the complete API implementation.
+
+Inspect:
+
+- Frontend API service.
+- Component calling the API.
+- API base URL.
+- Frontend proxy configuration.
+- Backend route registration.
+- Controller.
+- Service layer.
+- Repository/database queries.
+- PostgreSQL schema.
+- Authentication middleware.
+- Role and permission middleware.
+- Request validation.
+- Existing employee registration.
+- Performance roster functionality.
+
+### Diagnose the actual root cause.
+
+Verify:
+
+1. Whether the API endpoint is registered correctly.
+2. Whether POST is the correct HTTP method.
+3. Whether the frontend request body matches the backend contract.
+4. Whether required fields are missing.
+5. Whether request validation is correct.
+6. Whether authentication middleware works correctly.
+7. Whether the logged-in user has the necessary permissions.
+8. Whether employee, department and operation references exist.
+9. Whether PostgreSQL table and column names are correct.
+10. Whether required database migrations have been applied.
+11. Whether the controller and service return the expected response.
+12. Whether an unhandled exception is causing the 500 error.
+
+**Do not assume POST is incorrect simply because the endpoint returns 500.**
+
+If the endpoint retrieves roster information only, evaluate whether GET is appropriate. If it creates, updates or assigns roster records, retain POST according to the existing business requirements.
+
+Do not change the API contract without examining its existing frontend and backend usage.
+
+### API error handling
+
+Implement:
+
+- Request validation.
+- Authentication validation.
+- Permission validation.
+- Employee and department reference validation.
+- Parameterised PostgreSQL queries.
+- Appropriate database transactions.
+- Duplicate assignment prevention where applicable.
+- Structured server-side error logging.
+- Consistent JSON responses.
+- Proper HTTP status codes.
+
+Expected successful response:
+
+- `success: true`
+- Meaningful message.
+- Data.
+- Pagination metadata where applicable.
+
+Expected failed response:
+
+- `success: false`
+- Meaningful error message.
+- Appropriate HTTP status.
+- Field-level validation details where applicable.
+
+Do not expose database credentials, SQL statements, stack traces or sensitive information to the frontend.
+
+Do not merely suppress the error or return a fake successful response.
+
+Fix the actual root cause.
+
+---
+
+# 3. EXISTING MODULES – REUSE THEM
+
+The following modules are already implemented:
+
+1. Role & Menu Permission Management.
+2. Permissions Catalog & Directory.
+3. Department Management.
+4. Performance Employee Registration.
+5. Existing employee and hardware ID mapping.
+
+Important existing business rules:
+
+- All internal system IDs must be automatically generated.
+- Hardware ID is entered manually in Performance Employee Registration.
+- Hardware ID must be unique and validated.
+- Existing employees, departments, roles and permissions must be reused.
+- Do not create duplicate employee records.
+- Do not create a new role management system.
+- Do not recreate existing modules.
+
+The dashboard must use the existing role and permission architecture.
+
+Audit it before introducing any additional permissions.
+
+---
+
+# 4. DYNAMIC ROLE-BASED DASHBOARD
+
+Implement a dynamic dashboard that adapts to the authenticated user's actual permissions and authorised data access.
+
+After login, the dashboard must:
+
+1. Identify the authenticated user.
+2. Retrieve the assigned role and permissions.
+3. Determine authorised departments and employee records.
+4. Identify which reports and dashboard widgets the user can access.
+5. Load permitted statistics and visualisations.
+6. Show relevant notifications.
+7. Hide widgets that the user is not authorised to access.
+
+**Important:** Do not rely only on role names.
+
+Actual dashboard visibility and data access must be determined by existing permission assignments.
+
+Every protected dashboard API must independently enforce authorisation on the backend.
+
+Never rely solely on frontend visibility restrictions.
+
+## Suggested dashboard configurations
+
+These are suggested default layouts. Actual access must follow the existing permission configuration.
+
+### A. Super Admin / Company Owner
+
+Display company-wide information where authorised:
+
+- Total employees.
+- Active employees.
+- Employees working today.
+- Daily production.
+- Weekly production.
+- Monthly production.
+- Production target versus achievement.
+- Overall employee productivity.
+- Employee performance ranking.
+- Quality acceptance rate.
+- Rejection and rework.
+- Work-in-progress.
+- Finished product readiness.
+- Pending production orders.
+- Daily, weekly and monthly production forecasts.
+- Production bottlenecks.
+- Reward approval notifications.
+
+### B. Management
+
+Display authorised business-level information:
+
+- Employee performance summaries.
+- Department performance.
+- Production reports.
+- Target versus actual achievement.
+- Quality analytics.
+- Production forecasts.
+- Product readiness.
+- Best employee rankings.
+- Reward approvals.
+
+### C. Production Manager
+
+Display:
+
+- Assigned production operations.
+- Daily production targets.
+- Actual production.
+- Operation-wise output.
+- Pending operations.
+- Work-in-progress.
+- Production bottlenecks.
+- Employee productivity.
+- Production forecasts.
+- Order progress.
+- Relevant operational notifications.
+
+### D. Department Supervisor
+
+Display only authorised department information:
+
+- Assigned employees.
+- Daily employee work activity.
+- Operation-wise production.
+- Employee performance.
+- Targets versus achievement.
+- Quality inspection status.
+- Rejected and rework quantities.
+- Department productivity.
+- Pending approvals.
+
+### E. Quality Inspector
+
+Display:
+
+- Pending inspections.
+- Accepted production.
+- Rejected production.
+- Rework requests.
+- Defect reports.
+- Inspection history.
+- Quality performance charts.
+
+### F. Employee
+
+Display only the employee's own authorised information:
+
+- Own production records.
+- Own daily, weekly and monthly performance.
+- Own productivity percentage.
+- Own quality results.
+- Personal targets.
+- Personal performance trends.
+- Reward and recognition history.
+- Relevant personal notifications.
+
+An employee must never receive another employee's confidential performance information unless explicitly authorised.
+
+---
+
+# 5. PERMISSION-BASED DASHBOARD WIDGETS
+
+Reuse the existing Permissions Catalog.
+
+Add new permissions only where genuinely required.
+
+Suggested permissions:
+
+- Dashboard.View
+- Dashboard.EmployeeSummary.View
+- Dashboard.ProductionSummary.View
+- Dashboard.EmployeePerformance.View
+- Dashboard.ProductionForecast.View
+- Dashboard.ProductReadiness.View
+- Dashboard.QualityReports.View
+- Dashboard.Rewards.View
+- Dashboard.Notifications.View
+- Reports.EmployeePerformance.View
+- Reports.Production.View
+- Reports.Quality.View
+- Reports.Forecast.View
+- Reports.Export.Excel
+- Reports.Export.PDF
+
+Apply the permissions at both frontend and backend levels.
+
+Rules:
+
+1. Show widgets only when the user has the required permission.
+2. Restrict records to the user's authorised departments and employees.
+3. Prevent unauthorised direct API access.
+4. Apply default-deny rules for unassigned permissions.
+5. Enforce export permissions separately.
+6. Ensure that filtering cannot expose unauthorised information.
+
+Do not duplicate permissions already present in the application.
+
+---
+
+# 6. PROFESSIONAL VISUAL DASHBOARD – KPI CARDS
+
+The dashboard must not be limited to text and data tables.
+
+Build a professional visual dashboard using:
+
+- KPI cards.
+- Graphs.
+- Charts.
+- Progress bars.
+- Performance indicators.
+- Employee rankings.
+- Production summaries.
+- Notifications.
+- Recent activities.
+- Interactive reporting widgets.
+
+Display relevant KPI cards based on the user's permissions.
+
+### Employee KPIs
+
+- Total Employees.
+- Active Employees.
+- Employees Working Today.
+- Employee Productivity.
+- Average Quality Score.
+- Best Performing Employee.
+- Employees Meeting Targets.
+- Employees Requiring Performance Improvement.
+
+### Production KPIs
+
+- Total Production Today.
+- Weekly Production.
+- Monthly Production.
+- Daily Production Target.
+- Target Achievement Percentage.
+- Accepted Production.
+- Rejected Production.
+- Rework Quantity.
+- Work-in-Progress.
+- Pending Production Orders.
+- Production Bottleneck.
+
+### Finished Product KPIs
+
+- Total Finished Products.
+- Finished Products Ready.
+- Product Readiness Percentage.
+- Assembly-Ready Quantity.
+- Products Awaiting Final Inspection.
+- Remaining Production Quantity.
+
+### Forecast KPIs
+
+- Expected Daily Production.
+- Expected Weekly Production.
+- Expected Monthly Production.
+- Expected Order Completion Date.
+- Production Shortfall.
+
+Each card should display:
+
+- Current value.
+- Reporting period.
+- Comparison with the previous period, where available.
+- Percentage increase or decrease.
+- Appropriate visual status.
+- Click-through option to open the detailed report, where authorised.
+
+Do not display KPIs for which the user has no permission.
+
+Do not display invented statistics.
+
+---
+
+# 7. INTERACTIVE GRAPHS AND CHARTS
+
+Use the existing charting library if one is already installed and suitable.
+
+Otherwise, select one maintained charting library compatible with the current frontend.
+
+Avoid introducing unnecessary charting dependencies.
+
+All chart data must come from authorised backend APIs and real PostgreSQL records.
+
+## A. Employee Performance Charts
+
+Implement:
+
+1. Employee Productivity Comparison – horizontal bar chart.
+2. Daily Employee Performance – line chart.
+3. Weekly Employee Performance – line chart.
+4. Monthly Employee Performance – line chart.
+5. Operation-wise Employee Ranking – bar chart.
+6. Productivity versus Quality – comparison chart.
+7. Employee Target versus Actual Output – grouped bar chart.
+8. Employee Performance Improvement – trend chart.
+9. Employee Quality Trend – line chart.
+10. Employee Reward Ranking – ranking visualisation.
+
+**Critical performance rule:**
+
+Employees performing different operations must be compared using standard-time-based productivity percentages, not raw production quantities.
+
+For example:
+
+- Head preparation: 2 minutes per unit.
+- Body preparation: 4 minutes per unit.
+- Hand preparation: 6 minutes per unit.
+- Foot preparation: 3 minutes per unit.
+
+Use the approved operation standards and existing Performance Calculation Engine.
+
+Never compare 100 heads directly against 100 hands without considering operation standards and units of measurement.
+
+## B. Production Analytics Charts
+
+Implement:
+
+1. Daily Production Trend – line chart.
+2. Weekly Production Trend – line chart.
+3. Monthly Production Trend – line chart.
+4. Product-wise Production – bar chart.
+5. Operation-wise Production – bar chart.
+6. Target versus Actual Production – grouped bar chart.
+7. Accepted versus Rejected Production – stacked bar chart.
+8. Shift-wise Production – comparison chart.
+9. Production Order Progress – progress indicators.
+10. Work-in-Progress by Operation – bar chart.
+
+## C. Quality Analytics Charts
+
+Implement:
+
+1. Accepted versus Rejected Production.
+2. Operation-wise Defect Comparison.
+3. Employee-wise Quality Comparison.
+4. Rework Trend.
+5. First-Pass Quality Trend.
+6. Quality Improvement over Time.
+
+Use actual inspection records.
+
+Avoid counting reworked pieces more than once.
+
+## D. Product Readiness Visualisation
+
+Create a dedicated visualisation for product readiness.
+
+Display:
+
+- Production order quantity.
+- Completed component quantities.
+- Approved component quantities.
+- Components awaiting inspection.
+- Rejected components.
+- Assembly-ready quantity.
+- Assembled product quantity.
+- Products awaiting final inspection.
+- Final quality-approved products.
+- Remaining order quantity.
+
+Use:
+
+- Progress bars.
+- Component availability charts.
+- Production-stage visualisation.
+- Finished product readiness percentages.
+- Product-wise readiness comparison charts.
+
+Important distinction:
+
+Component production is not finished product production.
+
+Only final quality-approved products count as finished products.
+
+## E. Production Forecast Charts
+
+Implement:
+
+1. Expected Daily Production.
+2. Expected Weekly Production.
+3. Expected Monthly Production.
+4. Actual versus Predicted Production.
+5. Production Target versus Forecast.
+6. Operation-wise Capacity.
+7. Bottleneck Analysis.
+8. Expected Order Completion Date.
+
+Use charts that visually distinguish:
+
+- Historical actual production.
+- Current production.
+- Future estimated production.
+- Planned production targets.
+
+Production forecasts must use the existing forecasting logic and available actual data.
+
+Forecast inputs should include:
+
+- Standard operation time.
+- Available employee capacity.
+- Working hours and shifts.
+- Approved breaks and downtime.
+- Current work-in-progress.
+- Required component quantities.
+- Quality and rejection history.
+- Final assembly capacity.
+
+Do not forecast more finished toys than can be supported by the required approved components and assembly capacity.
+
+Clearly label future figures as estimates.
+
+If historical data is insufficient, show the limitation and use approved standards-based estimates instead of inventing historical values.
+
+---
+
+# 8. PRODUCTION PROGRESS OVERVIEW
+
+Add a visual manufacturing process overview.
+
+Example:
+
+Head Preparation → Body Preparation → Hands → Feet → Final Assembly → Final Quality Inspection → Finished Product.
+
+Display the following at every stage:
+
+- Assigned employees or teams.
+- Target quantity.
+- Submitted quantity.
+- Approved quantity.
+- Rejected quantity.
+- Pending quantity.
+- Rework quantity.
+- Completion percentage.
+
+Allow authorised users to click a stage and open the detailed operation report.
+
+The dashboard must show where production is moving smoothly and where work is waiting.
+
+---
+
+# 9. EMPLOYEE LEADERBOARD
+
+Create an interactive employee leaderboard.
+
+Display:
+
+- Employee Name.
+- Employee ID.
+- Department.
+- Assigned Operation.
+- Productivity Percentage.
+- Quality Percentage.
+- Consistency Score.
+- Final Performance Score.
+- Ranking.
+- Reward Eligibility.
+
+Provide filters for:
+
+- Today.
+- This Week.
+- This Month.
+- Custom Date Range.
+- Department.
+- Operation.
+
+Support:
+
+- Best Employee Today.
+- Best Employee This Week.
+- Best Employee This Month.
+- Best Performer by Operation.
+- Best Quality Performer.
+- Most Consistent Employee.
+- Overall Best Employee.
+
+The ranking must use approved scoring rules and sufficient eligible working data.
+
+Do not rank employees solely by button-press count or completed component quantity.
+
+---
+
+# 10. DASHBOARD NOTIFICATION CENTRE
+
+Implement a dynamic notification centre.
+
+Notifications must be generated by actual system events.
+
+### Management Notifications
+
+- Production target not achieved.
+- Forecast below target.
+- Employee performance decline.
+- Production order approaching deadline.
+- Reward approval pending.
+- Quality performance below target.
+
+### Production Manager Notifications
+
+- Operation output below expected level.
+- Production bottleneck identified.
+- Pending production assignment.
+- Downtime reported.
+- Work-in-progress waiting too long.
+- Production order delay.
+
+### Supervisor Notifications
+
+- Employee work completion.
+- Quality inspection pending.
+- Rework submitted.
+- Production target achieved.
+- Hardware event requires verification.
+
+### Quality Inspector Notifications
+
+- Pending inspections.
+- Rejected production awaiting review.
+- Rework awaiting inspection.
+- Quality approval pending.
+
+### Notification functionality
+
+Implement:
+
+- Read/unread status.
+- Notification timestamp.
+- Notification type.
+- Severity.
+- Related employee.
+- Related department.
+- Related operation.
+- Related production order.
+- Mark as read.
+- Mark all as read.
+- Notification history.
+
+Apply role and permission-based visibility.
+
+Never show notifications containing information the logged-in user is not authorised to access.
+
+Do not create dummy notifications.
+
+---
+
+# 11. RECENT ACTIVITY AND QUICK ACTIONS
+
+Provide a Recent Activity section showing authorised events:
+
+- Employee production events.
+- Operation assignments.
+- Quality approvals.
+- Rejections.
+- Production order updates.
+- Supervisor corrections.
+- Hardware event exceptions.
+- Reward approvals.
+
+Provide role- and permission-based Quick Actions, such as:
+
+- Register Employee.
+- Assign Operation.
+- View Employee Performance.
+- View Production Reports.
+- Review Quality.
+- View Production Forecast.
+- Approve Rewards.
+- Manage Notifications.
+
+Hide actions the user is not authorised to perform.
+
+---
+
+# 12. DASHBOARD FILTERS AND INTERACTIONS
+
+Provide relevant common dashboard filters:
+
+### Date Filters
+
+- Today.
+- Yesterday.
+- This Week.
+- Last Week.
+- This Month.
+- Last Month.
+- This Quarter.
+- This Year.
+- Custom Date Range.
+
+### Business Filters
+
+- Department.
+- Employee.
+- Operation.
+- Product.
+- Production Order.
+- Shift.
+- Workstation.
+- Quality Status.
+
+When filters are changed, all dependent KPI cards, charts, graphs and tables must update consistently.
+
+### Interactive Chart Requirements
+
+Charts must support:
+
+- Hover tooltips.
+- Legends.
+- Clear axis labels.
+- Date selection.
+- Drill-down into detailed reports.
+- Chart/table view switching where appropriate.
+- Excel and PDF export where authorised.
+- Responsive design.
+- Loading states.
+- Empty states.
+- Error states.
+
+Clicking a chart or data point should open the relevant detailed report, provided the user has the required permission.
+
+Do not create controls that appear interactive but do nothing.
+
+---
+
+# 13. FRONTEND DESIGN REQUIREMENTS
+
+Implement a clean, modern and professional enterprise dashboard.
+
+Follow the existing NEXORA design system.
+
+Requirements:
+
+- Consistent dashboard spacing.
+- Clear visual hierarchy.
+- Responsive KPI cards.
+- Professional graphs and charts.
+- Readable labels and legends.
+- Consistent date formatting.
+- Appropriate number formatting.
+- Accessible colours and contrast.
+- Responsive desktop, tablet and mobile layouts.
+- Loading skeletons.
+- Meaningful empty states.
+- Error messages with retry options.
+
+Recommended dashboard layout:
+
+**Top section:** Dashboard title, date filters and user information.
+
+**First section:** KPI summary cards.
+
+**Second section:** Employee performance charts and production trend charts.
+
+**Third section:** Production readiness, work-in-progress and forecasting.
+
+**Fourth section:** Employee leaderboard and quality analytics.
+
+**Bottom section:** Notifications, recent activities and pending actions.
+
+Rearrange sections as appropriate for individual roles and permissions.
+
+---
+
+# 14. BACKEND AND DATABASE REQUIREMENTS
+
+Use the existing backend, PostgreSQL database, API architecture and coding conventions.
+
+Before creating new tables, inspect existing schemas and reuse equivalent entities.
+
+Use efficient aggregated reporting APIs.
+
+Possible logical API groups include:
+
+- `/api/performance/roster`
+- `/api/dashboard/summary`
+- `/api/dashboard/employee-performance`
+- `/api/dashboard/production`
+- `/api/dashboard/product-readiness`
+- `/api/dashboard/forecast`
+- `/api/dashboard/quality`
+- `/api/dashboard/notifications`
+- `/api/dashboard/recent-activity`
+
+These are proposed endpoint examples. Inspect existing routes first and extend the existing API conventions rather than creating duplicates.
+
+Backend requirements:
+
+- Authenticate every protected request.
+- Validate permissions on the server.
+- Enforce department and employee data restrictions.
+- Use parameterised PostgreSQL queries.
+- Use efficient aggregate queries.
+- Implement server-side pagination.
+- Use appropriate database indexes.
+- Avoid unnecessary repeated queries.
+- Avoid N+1 query problems.
+- Validate date ranges and filter parameters.
+- Return consistent API response structures.
+- Protect against unauthorised data export.
+- Maintain audit logging for sensitive actions.
+
+Do not calculate official employee performance figures independently in the browser.
+
+Use the backend Performance Calculation Engine as the source of truth.
+
+All dashboard statistics and visualisations must reflect actual database records.
+
+---
+
+# 15. DASHBOARD PERFORMANCE AND SECURITY
+
+NEXORA may support a large number of employees and simultaneous hardware events.
+
+Ensure:
+
+- Dashboard queries remain efficient.
+- Reports use server-side aggregation.
+- Large datasets are paginated.
+- Chart APIs return only required data.
+- No unnecessary full employee list is downloaded.
+- Dashboard data is refreshed appropriately.
+- Cached information, where used, is permission-aware and invalidated when relevant data changes.
+- User A cannot access User B's restricted dashboard information.
+- Department-restricted users cannot access another department's data.
+- Employee users cannot access company-wide performance records without permission.
+
+Do not implement a frontend-only security model.
+
+---
+
+# 16. TESTING AND ACCEPTANCE CRITERIA
+
+The implementation is not complete until the following tests pass.
+
+## Test A – Performance Roster API
+
+1. Valid authenticated request.
+2. Correct method and request payload.
+3. Invalid request payload.
+4. Missing required information.
+5. Invalid employee reference.
+6. Database error handling.
+7. Missing permission.
+8. Department-restricted access.
+9. Successful roster response.
+10. No unhandled 500 errors for normal validation or permission failures.
+
+## Test B – Role-Based Dashboard
+
+Test the dashboard using different user accounts and permission combinations:
+
+- Super Admin.
+- Management.
+- Production Manager.
+- Department Supervisor.
+- Quality Inspector.
+- Employee.
+
+Verify every dashboard widget and underlying API access.
+
+Do not assume users have access merely because of their role names.
+
+## Test C – Graphs and Charts
+
+Verify:
+
+- Charts load actual database records.
+- Empty datasets show appropriate empty states.
+- Date filters update charts.
+- Employee filters work.
+- Department filters work.
+- Operation filters work.
+- Chart values match detailed reports.
+- Drill-down links respect permissions.
+- Excel and PDF exports respect permissions.
+
+## Test D – Notifications
+
+Verify:
+
+- Relevant notifications are generated.
+- Read/unread status works.
+- Notifications are permission-restricted.
+- Notification actions work.
+- Unauthorised data is never exposed.
+
+## Test E – Performance and Product Readiness
+
+Verify that:
+
+- Employee productivity uses operation-specific standard times.
+- Different operations are compared fairly.
+- Quality calculations use approved inspection records.
+- Component quantities are not confused with finished toys.
+- Finished product readiness uses final approved quantity.
+- Production forecasts consider operation capacity and bottlenecks.
+
+## Test F – Scalability and Security
+
+Verify:
+
+- Dashboard performance with a large employee population.
+- Concurrent API requests.
+- Efficient database queries.
+- Server-side pagination.
+- No unauthorised department data leakage.
+- No duplicate dashboard records.
+- No hard-coded statistics.
+
+---
+
+# 17. REQUIRED DEVELOPMENT DELIVERABLES
+
+After completing the implementation, provide:
+
+1. Existing application audit.
+2. Exact root cause of the Performance Roster API 500 error.
+3. Correct API method and request payload contract.
+4. API response format.
+5. Backend files modified.
+6. Frontend files modified.
+7. Database changes and migrations, if required.
+8. Permission changes, if required.
+9. Dashboard KPI cards implemented.
+10. Graphs and charts implemented.
+11. Role-based dashboard configurations.
+12. Notification centre implemented.
+13. Interactive filters and drill-downs.
+14. Production readiness visualisation.
+15. Forecasting charts.
+16. Automated test results.
+17. Performance and security verification.
+18. Final implementation report.
+
+---
+
+# 18. STRICT DEVELOPMENT RULES
+
+This is an existing production-oriented application.
+
+Follow these rules throughout implementation:
+
+- Audit existing code before modification.
+- Do not rebuild working modules.
+- Do not restructure project folders without a compelling reason.
+- Do not create duplicate permissions.
+- Do not create duplicate API endpoints.
+- Do not create duplicate database tables.
+- Do not introduce dummy or seed business data.
+- Do not hard-code employee names, production quantities, chart values or performance scores.
+- Do not fabricate notifications.
+- Do not invent production forecasts.
+- Do not expose unauthorised employee or departmental information.
+- Do not bypass existing authentication or permission middleware.
+- Do not suppress errors without fixing their root cause.
+- Preserve existing hardware integration.
+- Preserve existing database conventions.
+- Use PostgreSQL as the only application data store.
+- Implement appropriate migrations and automated tests.
+- Keep historical reports accurate.
+- Make minimal, controlled changes.
+- Verify existing functionality after implementation.
+
+If a requirement is already implemented, reuse it and verify its correctness instead of implementing it again.
+
+Do not stop after creating UI mockups. Complete the backend, frontend, permissions, database integration and testing.
+
+# FINAL EXPECTATION
+
+NEXORA must have a professional, fully functional, permission-controlled manufacturing management dashboard.
+
+Management should be able to understand the company's performance at a glance through visual KPI cards, interactive graphs, charts, employee rankings, quality analytics, notifications and production forecasts.
+
+Every user should see only the information and actions they are authorised to access.
+
+The Performance Roster API must work correctly, and all dashboard information must come from real, validated PostgreSQL data.
+
+**The final objective is to give management a clear visual understanding of employee performance, manufacturing efficiency, production progress, finished product readiness, quality and future production capacity – without having to manually analyse multiple reports.**
